@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Button from '../Button/Button'
 export default function Landing() {
+    
   return (
     <section className='sticky top-0 mx-auto flex h-screen   max-w-[1350px] items-center justify-between px-8'>
         <div className='space-y-8'> 
@@ -12,7 +13,7 @@ export default function Landing() {
             </h1>
             
             <div>
-                <Button title="09 80 80 67 64"/>
+                <Button title="09 80 80 67 64"  />
                 {/* <a className='link'>Contacter</a> */}
             </div>
         </div>
