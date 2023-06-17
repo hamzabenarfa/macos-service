@@ -1,5 +1,4 @@
 import Landing from "./components/Landing/Landing";
-import Down from "./components/down/Down";
 
 export default function Home() {
   return (
