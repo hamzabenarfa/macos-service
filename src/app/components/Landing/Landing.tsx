@@ -1,17 +1,18 @@
 import React from 'react'
 import Image from 'next/image'
+import Button from '../Button/Button'
 export default function Landing() {
   return (
     <section className='sticky top-0 mx-auto flex h-screen   max-w-[1350px] items-center justify-between px-8'>
         <div className='space-y-8'> 
             <h1 className='space-y-3 text-5xl font-semibold tracking-wide lg:text-6xl xl:text-7xl'>
                 <span className='block bg-gradient-to-r from-pink-500 to-blue-500 text-transparent bg-clip-text'>Service de Réparation </span>
-                <span className='block'>Expert Mac</span>
-                <span className='block'>Support Professionnel</span>
+                <span className='block'>Mac par des Expert</span>
+                <span className='block'>Certifiés par Apple</span>
             </h1>
             
             <div>
-                <button title="09 80 80 67 64"/>
+                <Button title="09 80 80 67 64"/>
                 <a className='link'>Contacter</a>
             </div>
         </div>
