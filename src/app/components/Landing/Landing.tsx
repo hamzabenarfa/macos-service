@@ -13,7 +13,7 @@ export default function Landing() {
             
             <div>
                 <Button title="09 80 80 67 64"/>
-                <a className='link'>Contacter</a>
+                {/* <a className='link'>Contacter</a> */}
             </div>
         </div>
         <div className='relative hidden h-[450px] w-[450px] transition-all duration-500 md:inline lg:h-[650px] lg:w-[600px]'>
