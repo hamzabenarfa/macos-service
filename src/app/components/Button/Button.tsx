@@ -1,7 +1,7 @@
 interface Props {
   title: string;
 }
-export default function ({ title }: Props) {
+export default function Button ({ title }: Props) {
 
   return (
     <div>
