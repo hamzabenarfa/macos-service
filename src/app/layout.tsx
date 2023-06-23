@@ -1,7 +1,8 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
-import Navbar from './components/Navbar/Navbar'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -15,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="fr" className="scroll-smooth">
       <Head>
         <meta charSet="utf-8" />
         <title>{metadata.title}</title>
@@ -25,7 +26,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         {children}
-        
+        <Footer />
         </body>
     </html>
   )
