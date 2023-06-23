@@ -5,7 +5,7 @@ export default function Navbar() {
     <div>
       <header className=" flex w-full items-center justify-between bg-[#F9F9FA]  ">
 
-        <div className="flex items-center justify-center md:w-2/5 ">
+        <div className="flex items-center justify-center md:w-2/6 ">
           <Link href="/">
             <div
               className="relative cursor-pointer transition hover:opacity-100 ">
@@ -19,7 +19,7 @@ export default function Navbar() {
           </Link>
        
         </div>
-        <div className="hidden flex-1 items-center justify-center space-x-8 md:flex md:w-2/5">
+        <div className="hidden flex-1 items-center justify-center space-x-8 md:flex md:w-3/6">
        
           <div className="flex flex-col items-center">
             <Link href="/macbookpro">
@@ -50,7 +50,7 @@ export default function Navbar() {
            </div>
         </div>
 
-        <div className="hidden flex-1 items-center justify-center gap-x-3 md:flex md:w-1/5">
+        <div className="hidden flex-1 items-center justify-center gap-x-3 md:flex md:w-1/6">
             <Link href='/service'>
                     <span className="headerLink">Service</span>
             </Link>
