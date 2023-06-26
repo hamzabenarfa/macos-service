@@ -1,14 +1,15 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
+import { useState } from "react";
 export default function Navbar() {
+  const [Navbar, setNavbar] = useState(false);
   return (
     <div>
       <header className=" flex w-full items-center justify-between bg-[#F9F9FA]  ">
-
         <div className="flex items-center justify-center md:w-2/6 ">
           <Link href="/">
-            <div
-              className="relative cursor-pointer transition hover:opacity-100 ">
+            <div className="relative cursor-pointer transition hover:opacity-100 ">
               <Image
                 src="/apple-ascp.png"
                 width={150}
@@ -17,48 +18,145 @@ export default function Navbar() {
               />
             </div>
           </Link>
-       
         </div>
-        <div className="hidden flex-1 items-center justify-center space-x-8 md:flex md:w-3/6">
-       
-          <div className="flex flex-col items-center">
-            <Link href="/macbookpro">
-          <Image src="/macbookpro.png" width={50} height={50} className="headerIcon" alt="Picture of the macbook logo" />
-            </Link>
-            <Link href="/macbookpro" className="headerLink ">MacBook Pro</Link>
-          </div>
+
+        <div className="hidden md:flex-1  md:justify-center md:space-x-8 md:gap-4 md:flex md:w-3/6">
+         
+            <Link href="/macbookpro" className="flex flex-col items-center">
+              <Image
+                src="/macbookpro.png"
+                width={50}
+                height={50}
+                className="headerIcon"
+                alt="Picture of the macbook logo"
+              />
            
-           <div className="flex flex-col items-center">
-            <Link href="/macbookair">
-           <Image src="/macbook.png" width={50} height={50} className="headerIcon" alt="Picture of the macbook logo" />
+              MacBook Pro
             </Link>
-            <Link href="/macbookair" className="headerLink ">MacBook Air</Link>
-           </div>
 
-           <div className="flex flex-col items-center">
-            <Link href="/imac">
-            <Image src="/imac.png" width={50} height={50} className="headerIcon" alt="Picture of the imac logo" />
+
+            <Link href="/macbookair" className="flex flex-col items-center">
+              <Image
+                src="/macbook.png"
+                width={50}
+                height={50}
+                className="headerIcon"
+                alt="Picture of the macbook logo"
+              />
+           
+              MacBook Air
             </Link>
-            <Link href="/imac" className="headerLink">iMac </Link>
-            
-           </div>
-           <div className="flex flex-col items-center">
-            <Link href="/macmini">
-            <Image src="/macmini.png" width={50} height={50} className="headerIcon" alt="Picture of the macmini logo" />
+       
+
+            <Link href="/imac" className="flex flex-col items-center">
+              <Image
+                src="/imac.png"
+                width={50}
+                height={50}
+                className="headerIcon"
+                alt="Picture of the imac logo"
+              />
+        
+              iMac
             </Link>
-            <Link href="/macmini" className="headerLink">Mac mini</Link>
-           </div>
+       
+       
+            <Link href="/macmini" className="flex flex-col items-center">
+              <Image
+                src="/macmini.png"
+                width={50}
+                height={50}
+                className="headerIcon"
+                alt="Picture of the macmini logo"
+              />
+      
+              Mac mini
+            </Link>
+       
+
+          <div className="hidden flex-1 items-center justify-center gap-x-3 md:flex md:w-1/6">
+            <Link href="/service">
+              <span className="headerLink">Service</span>
+            </Link>
+            <Link href="/support">
+              <span className="headerLink">Support</span>
+            </Link>
+          </div>
         </div>
-
-        <div className="hidden flex-1 items-center justify-center gap-x-3 md:flex md:w-1/6">
-            <Link href='/service'>
-                    <span className="headerLink">Service</span>
-            </Link>
-            <Link href='/support'>
-                    <span className="headerLink">Support</span>
-            </Link>
+        <div className="pr-2 md:hidden">
+          {Navbar ? (
+            <Image
+              src="/close.svg"
+              width={40}
+              height={40}
+              alt="Picture of the menu logo"
+              onClick={() => setNavbar(!Navbar)}
+              className="hover:cursor-pointer"
+            />
+          ) : (
+            <Image
+              src="/menu.svg"
+              width={40}
+              height={40}
+              alt="Picture of the menu logo"
+              onClick={() => setNavbar(!Navbar)}
+              className="hover:cursor-pointer"
+            />
+          )}
         </div>
       </header>
+      <div
+        className={`flex-1 justify-self-center  ${
+          Navbar ? "md:p-0 block" : "hidden"
+        }`}
+      >
+        {Navbar && (
+        <div className="justify-center bg-[#F9F9FA] flex-col">
+          <Link href="/macbookpro" className="flex flex-col items-center" onClick={() => setNavbar(!Navbar)}>
+            <Image
+              src="/macbookpro.png"
+              width={50}
+              height={50}
+              className="headerIcon"
+              alt="Picture of the macbook logo"
+            />
+            <p>MacBook Pro</p>
+          </Link>
+
+          <Link href="/macbookair" className="flex flex-col items-center" onClick={() => setNavbar(!Navbar)}>
+            <Image
+              src="/macbook.png"
+              width={50}
+              height={50}
+              className="headerIcon"
+              alt="Picture of the macbook logo"
+            />
+            MacBook Air
+          </Link>
+
+          <Link href="/imac" className="flex flex-col items-center" onClick={() => setNavbar(!Navbar)}>
+            <Image
+              src="/imac.png"
+              width={50}
+              height={50}
+              className="headerIcon"
+              alt="Picture of the imac logo"
+            />
+            iMac
+          </Link>
+
+          <Link href="/macmini" className="flex flex-col items-center" onClick={() => setNavbar(!Navbar)}>
+            <Image
+              src="/macmini.png"
+              width={50}
+              height={50}
+              className="headerIcon"
+              alt="Picture of the macmini logo"
+            />
+            Mac mini
+          </Link>
+        </div>)}
+      </div>
     </div>
   );
 }

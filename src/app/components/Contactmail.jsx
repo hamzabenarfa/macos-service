@@ -12,8 +12,8 @@ export default function Contactmail() {
 
 
 
-<div className="flex min-h-screen items-center justify-start bg-[#FBFBFB]   ">
-  <div className="mx-auto w-full max-w-lg">
+<div className="flex min-h-screen items-center justify-start bg-[#FBFBFB] px-10 ">
+  <div className="mx-auto w-full max-w-3xl">
     <h1 className="text-5xl font-medium">Contactez-nous</h1>
     <p className="mt-3">Appelez-nous au 09 80 80 67 64 ou envoyez-nous un message ici : </p>
 
