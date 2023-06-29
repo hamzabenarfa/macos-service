@@ -75,12 +75,14 @@ export default function Navbar() {
        
 
           <div className="hidden flex-1 items-center justify-center gap-x-3 md:flex md:w-1/6">
-            <Link href="/service">
+            {/* <Link href="/service">
               <span className="headerLink">Service</span>
             </Link>
             <Link href="/support">
               <span className="headerLink">Support</span>
-            </Link>
+            </Link> */}
+
+            <span className="headerLink">Nos produits</span>
           </div>
         </div>
         <div className="pr-2 md:hidden">

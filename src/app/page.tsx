@@ -2,20 +2,16 @@
 import Landing from "./components/Landing";
 import Service from "./components/Service";
 import Support from "./components/Support";
-import Contactmail from "./components/Contactmail";
+import Entreprise from "./components/Entreprise";
 export default function Home() {
   return (
     <div>
       <main className=" bg-[#FBFBFB] ">
         <Landing />
-
         <Support />
-
         <Service />
-
-        <Contactmail />
-
-       
+        <Entreprise />
+      
       </main>
     </div>
   );
