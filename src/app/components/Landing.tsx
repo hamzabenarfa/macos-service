@@ -35,11 +35,15 @@ export default function Landing() {
             sans rendez-vous en 20 minutes !
           </span>
         </h1>
-        <div
+        <div>
+          <Button title="09 80 80 67 64" />
+          <small>sans tax</small>
+        </div>
+        {/* <div
           className={`${showButton ? "fixed bottom-4 right-4 " : ""} `}
         >
           <Button title="09 80 80 67 64" />
-        </div>
+        </div> */}
       </div>
     </section>
   );

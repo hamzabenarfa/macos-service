@@ -10,7 +10,7 @@ function Entreprise() {
         pensez !
       </span>
       <Image
-        src="/apples.jpg"
+        src="/appless.jpg"
         alt="et"
         width={1960}
         height={1102}
