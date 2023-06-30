@@ -53,7 +53,7 @@ export default function page() {
         </div>
       </section>
 
-      <section className="grid-rows-2 m-5 grid  min-h-screen place-items-center rounded-2xl bg-[#000000] md:mx-16">
+      <section className="grid-rows-2 m-5 grid  h-full w-full p-24 place-items-center rounded-2xl bg-[#000000] md:mx-16">
         <div className="flex flex-col items-center justify-center px-5 md:px-10">
           <h1 className="text-center text-6xl capitalize text-white md:mt-3 md:text-8xl">
             macbook pro

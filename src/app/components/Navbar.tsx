@@ -89,6 +89,8 @@ export default function Navbar() {
                 />
               </svg>
             </span>
+
+            tel: <span>09 80 80 67 64</span>
           </div>
         </div>
         <div className="pr-2 md:hidden">
