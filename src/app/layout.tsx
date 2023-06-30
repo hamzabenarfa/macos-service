@@ -6,7 +6,7 @@ import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
+export const metadata  = {
   title: 'macos-service',
   description: 'apple website',
 }

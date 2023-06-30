@@ -15,7 +15,7 @@ function Entreprise() {
         width={1960}
         height={1102}
       />
-      <p className="text-bold px-4 text-justify md:px-60 md:text-xl">
+      <p className="text-bold px-4 text-justify md:px-60 md:text-xl pt-8">
         Offrez une seconde jeunesse à votre Mac et évitez de le remplacer. Nous
         possédons les ressources et les compétences nécessaires pour installer,
         optimiser et personnaliser votre ordinateur selon vos souhaits, en
