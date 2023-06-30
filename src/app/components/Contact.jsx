@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 export default function Contact() {
   return (
     <>
@@ -64,7 +64,7 @@ export default function Contact() {
           {/* <h1>Horaires d'ouvertures</h1>
           <p>Du Lundi a vendredi</p>
           <p>Du 9h a 6h</p> */}
-          <Image
+          <img
             src="/contactpic.jpg"
             width={500}
             height={500}

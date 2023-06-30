@@ -1,25 +1,25 @@
 "use client"
-import Image from "next/image";
+
 import Button from "@/app/components/Button/Button";
 export default function page() {
   return (
     <>
       <section className="min-h-screen bg-[#000] relative">
-        <Image
+        <img
           src="/macbookpro.jpg"
           alt="macbookpro"
-          layout="fill"
-          objectFit="cover"
+          
+        
         />
       </section>
       <section className="min-h-screen bg-[#000] relative">
         <div className="flex flex-col items-center ">
-          <span className="block text-7xl font-bold text-white px-5">
+          {/* <span className="block text-7xl font-bold text-white px-5">
             Mover. Maker.
           </span>
           <span className="block  text-7xl font-bold text-white px-5">
             Boundary breaker.
-          </span>
+          </span> */}
 
           <p className="block text-sm px-5 md:text-2xl font-bold md:px-96 md:text-center py-8  bg-gradient-to-r from-stone-500 to-zinc-500 text-transparent bg-clip-text">
             Nous offrons un service de dépannage, réparation, récupération et

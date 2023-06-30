@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 import Button from "@/app/components/Button/Button";
 export default function page() {
   return (
@@ -25,7 +25,7 @@ export default function page() {
           </div>
         </div>
         <div>
-          <Image
+          <img
             src="/macbook_air_large.jpg"
             width={738}
             height={622}
@@ -34,7 +34,7 @@ export default function page() {
         </div>
       </section>
 
-      <section className="grid-rows-2 m-5 grid  min-h-screen place-items-center rounded-2xl bg-[#FBFBFB] md:hidden ">
+      {/* <section className="grid-rows-2 m-5 grid  min-h-screen place-items-center rounded-2xl bg-[#FBFBFB] md:hidden ">
         <div className="flex flex-col items-center justify-center px-5 md:px-10">
           <h1 className="text-center text-6xl text-color-[#1D1D1F]  capitalize">
             macbook pro
@@ -44,30 +44,30 @@ export default function page() {
           </div>
         </div>
         <div>
-        <Image
+        <img
             src="/macbook_air_large.jpg"
             width={738}
             height={622}
             alt="mac"
           />
         </div>
-      </section>
+      </section> */}
 
-      <section className="grid-rows-2 m-5 grid  h-full w-full p-24 place-items-center rounded-2xl bg-[#000000] md:mx-16">
+      {/* <section className="grid-rows-2 m-5 grid  h-full w-full p-24 place-items-center rounded-2xl bg-[#000000] md:mx-16">
         <div className="flex flex-col items-center justify-center px-5 md:px-10">
           <h1 className="text-center text-6xl capitalize text-white md:mt-3 md:text-8xl">
             macbook pro
           </h1>
         </div>
         <div>
-          <Image
+          <img
             src="/macbook_air_m1_large.jpg"
             width={1380}
             height={486}
             alt="mac"
           />
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

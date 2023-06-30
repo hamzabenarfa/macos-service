@@ -1,10 +1,10 @@
 "use client"
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import Button from "./Button/Button";
 
 export default function Landing() {
   const [showButton, setShowButton] = useState(false);
+
 
   useEffect(() => {
     const handleScroll = () => {
@@ -28,7 +28,7 @@ export default function Landing() {
           <span className="block bg-gradient-to-r from-pink-500 to-blue-500 text-transparent bg-clip-text">
             Un Problème Sur votre Mac ?
           </span>
-          <Image src="/macpro.png" alt="mac" width={750} height={750} />
+          <img src="/macpro.png" alt="mac" width={750} height={750} />
           <span className="block text-3xl md:text-5xl">Contacter le Support</span>
           <span className="block text-2xl md:text-3xl">Un expert vous prend en charge</span>
           <span className="block text-sm">

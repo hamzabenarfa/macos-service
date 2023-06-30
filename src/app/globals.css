@@ -25,5 +25,8 @@
     .servicetext{
         @apply text-center font-semibold text-2xl mt-3 text-zinc-600;
     }
+    .macmini{
+        @apply bg-gradient-to-r from-stone-500 to-zinc-500 bg-clip-text px-5 py-4  text-justify font-semibold text-transparent md:px-60 md:text-2xl;
+    }
 }
 

@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 import Button from "./Button/Button";
 
 function Entreprise() {
@@ -9,7 +9,7 @@ function Entreprise() {
         Votre appareil n&apos;est peut-être pas si mal en point que vous le
         pensez !
       </span>
-      <Image
+      <img
         src="/appless.jpg"
         alt="et"
         width={1960}
