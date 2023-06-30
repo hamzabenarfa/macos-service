@@ -37,7 +37,7 @@ export default function Landing() {
         </h1>
         <div>
           <Button title="09 80 80 67 64" />
-          <small>sans tax</small>
+          <small>Appel gratuit non surtaxé</small>
         </div>
         {/* <div
           className={`${showButton ? "fixed bottom-4 right-4 " : ""} `}
