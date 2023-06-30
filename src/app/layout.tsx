@@ -29,7 +29,11 @@ export default function RootLayout({
        
         </Head>
       <body className={inter.className}>
-      <Script id="google-analytics">
+      
+        <Navbar />
+        {children}
+        <Footer />
+        <Script id="google-analytics">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -38,9 +42,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 `}</Script>
       <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KT5B8MX"
 height="0" width="0" style={{"display": "none", "visibility": "hidden"}}></iframe></noscript>
-        <Navbar />
-        {children}
-        <Footer />
         </body>
     </html>
   )
