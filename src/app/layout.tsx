@@ -4,6 +4,7 @@ import Head from "next/head";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Script from "next/script";
+import FixedBar from "./components/FixedBar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,6 +30,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         {children}
+        <FixedBar />
         <Footer />
         
         <Script id="google-analytics">
