@@ -7,8 +7,8 @@ export default function Footer() {
     <>
       <footer>
         <div className="grid-row-2 grid h-full bg-gradient-to-t from-gray-200 to-gray-50 ">
-          <div className="flex flex-row  items-center justify-between space-x-4">
-            <div className="flex w-full justify-center space-y-2 p-4">
+          <div className="flex flex-col md:flex-row  items-center md:justify-between space-x-4">
+            <div className="flex w-full justify-start md:justify-center space-y-2 p-6">
               <div className="flex flex-col items-start space-y-2">
                 <Link href="/macbookpro" className="footerNav">
                   <span> MacBook Pro</span>
@@ -64,6 +64,8 @@ export default function Footer() {
               </div>
             </div>
           </div>
+
+          
           <div className="flex flex-col items-center justify-center">
             <small> Macos-service™ 2023</small>
             <small className="p-2 text-center  text-xs font-light">
