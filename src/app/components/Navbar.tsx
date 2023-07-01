@@ -9,13 +9,11 @@ export default function Navbar() {
     <div>
       <header className=" flex w-full items-center justify-between bg-[#F9F9FA] p-4 ">
         <div className="flex flex-col items-center justify-center md:w-2/6 ">
-          <Link href="/">
-              <div className="headerLink text-left pt-4">
-
+          <Link href="/" onClick={() => setNavbar(false)}>
+            <div className="headerLink pt-4 text-left">
               <p>Support Certifié </p>
               <p>Professionnel</p>
-              </div>
-        
+            </div>
           </Link>
         </div>
 
@@ -65,8 +63,6 @@ export default function Navbar() {
           </Link>
 
           <div className="hidden flex-1 items-center justify-center gap-x-3 md:flex md:w-1/6">
-           
-
             {/* <span className="headerLink">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +80,7 @@ export default function Navbar() {
               </svg>
             </span> */}
 
-             <Button title='09 80 80 67 64' />
+            <Button title="09 80 80 67 64" />
           </div>
         </div>
         <div className="pr-2 md:hidden">

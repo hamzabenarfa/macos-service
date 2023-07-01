@@ -23,6 +23,13 @@ export default function RootLayout({
         <meta charSet="utf-8" />
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
+        
+        <link rel="icon" href="/icon.png" />
+      </Head>
+      <body className={inter.className}>
+        <Navbar />
+        {children}
+        <Footer />
         <Script id="google-analytics">
           {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -32,13 +39,6 @@ export default function RootLayout({
             })(window,document,'script','dataLayer','GTM-KT5B8MX');
           `}
         </Script>
-        <link rel="icon" href="/icon.png" />
-      </Head>
-      <body className={inter.className}>
-        <Navbar />
-        {children}
-        <Footer />
-        
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-KT5B8MX"
