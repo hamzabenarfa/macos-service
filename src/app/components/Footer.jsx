@@ -58,7 +58,7 @@ export default function Footer() {
 
             <div className="flex w-full flex-col justify-center space-y-2 p-4">
               <div className="flex flex-col items-start">
-                <p className="text-lg font-bold">Horaires d'ouvertures</p>
+                <p className="text-lg font-bold">Horaires d&apos;ouvertures</p>
                 <p>7 jours sur 7</p>
                 <p>09:00 H - 23:00 H</p>
               </div>
@@ -96,19 +96,19 @@ export default function Footer() {
             <small> Macos-service™ © 2023</small>
             <small className="p-2 text-center  text-xs font-light">
               Ce site internet est protégé par les lois de protection de la
-              propriété intellectuelle, recopier, imiter ou s'inspirer de
+              propriété intellectuelle, recopier, imiter ou s&apos;inspirer de
               celui-ci est passible de sanction judiciaire. Macos-service™ est
-              un centre international d'assistance et de formation pour les
+              un centre international d&apos;assistance et de formation pour les
               produits Apple. Site privé distinct de la marque Apple.
               Macos-service™ apporte un support sur Mac dans la limite des
               possibilités de dépannage à distance et couvre les problématiques
-              d'ordre logiciel et d&apos;utilisation. En cas de problème
+              d&apos;ordre logiciel et d&apos;utilisation. En cas de problème
               matériel nécessitant une réparation physique, nous vous
               conseillerons sur les solutions complémentaires adaptées.
               *récupération possible dans la majorité des cas de plus de 75% des
               données perdues. *Certains Techniciens sont certifiés par Apple et
               le support technique Mac de la marque Apple *Des ventes et
-              services complémentaires peuvent s'appliquer
+              services complémentaires peuvent s&apos;appliquer
             </small>
           </div>
         </div>
