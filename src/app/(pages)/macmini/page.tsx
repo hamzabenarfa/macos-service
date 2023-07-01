@@ -45,7 +45,7 @@ export default function Page() {
 
   return (
     <>
-      <section className="min-h-screen bg-[#000]  ">
+      <section className=" min-h-screen bg-[#000]  ">
         <div>
           {slides.map((slide, index) => (
             <div
@@ -65,7 +65,7 @@ export default function Page() {
           ))}
         </div>
       </section> 
-      <section className=" min-h-screen space-y-8 bg-[#000] p-8 -mt-80 md:mt-0 md:pt-14   ">
+      <section className=" min-h-screen space-y-8  bg-[#000] p-8 -mt-80 md:mt-0 md:pt-14   ">
         <div className="flex flex-col items-center justify-center space-y-8">
           <span className=" bg-gradient-to-r from-stone-500 to-zinc-500 bg-clip-text text-3xl font-bold text-transparent md:text-6xl">
             Mac minis
