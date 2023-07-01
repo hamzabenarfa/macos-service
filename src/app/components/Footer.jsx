@@ -7,8 +7,8 @@ export default function Footer() {
     <>
       <footer>
         <div className="grid-row-2 grid h-full bg-gradient-to-t from-gray-200 to-gray-50 ">
-          <div className="flex flex-col md:flex-row  items-center md:justify-between space-x-4">
-            <div className="flex w-full justify-start md:justify-center space-y-2 p-6">
+          <div className="flex flex-col items-center  space-x-4 md:flex-row md:justify-between">
+            <div className="flex w-full justify-start space-y-2 p-6 md:justify-center">
               <div className="flex flex-col items-start space-y-2">
                 <Link href="/macbookpro" className="footerNav">
                   <span> MacBook Pro</span>
@@ -35,8 +35,7 @@ export default function Footer() {
                 <p>09:00 H - 18:00 H</p>
               </div>
               <div className="flex flex-col items-start">
-                <p className="text-lg font-bold">informations légales</p>
-                <p className="text-semibold underline  ">
+                <p className="font-bold  text-xl hover:underline  ">
                   <Link href="/cgv">C G V</Link>
                 </p>
               </div>
@@ -44,7 +43,7 @@ export default function Footer() {
 
             <div className="flex w-full flex-col justify-center space-y-2 p-4">
               <div className="flex flex-col items-start">
-                <p className="text-lg font-bold">Contactez nous</p>
+                <p className="text-lg font-bold">Tel</p>
 
                 <a href="tel:0980806764" className="hover:underline">
                   09 80 80 67 64
@@ -65,7 +64,6 @@ export default function Footer() {
             </div>
           </div>
 
-          
           <div className="flex flex-col items-center justify-center">
             <small> Macos-service™ 2023</small>
             <small className="p-2 text-center  text-xs font-light">
@@ -73,8 +71,8 @@ export default function Footer() {
               intellectuelle. Toute reproduction, imitation ou utilisation non
               autorisée de son contenu est strictement interdite et peut
               entraînùer des sanctions judiciaires. Macos-service est un centre
-              d&apos;assistance spécialisé dans les produits Apple. Nous sommes un
-              site privé indépendant de la marque Apple, mettant à votre
+              d&apos;assistance spécialisé dans les produits Apple. Nous sommes
+              un site privé indépendant de la marque Apple, mettant à votre
               disposition un support à distance complet pour résoudre
               efficacement les problèmes d&apos;utilisation de votre Mac. Notre
               équipe s&apos;efforce de vous offrir une assistance de qualité en
