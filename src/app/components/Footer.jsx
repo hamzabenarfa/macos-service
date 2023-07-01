@@ -9,48 +9,20 @@ export default function Footer() {
         <div className="grid-row-2 grid h-full bg-gradient-to-t from-gray-200 to-gray-50 ">
           <div className="flex flex-row  items-center justify-between space-x-4">
             <div className="flex w-full justify-center space-y-2 p-4">
-              <div className="flex flex-col items-start">
+              <div className="flex flex-col items-start space-y-2">
                 <Link href="/macbookpro" className="footerNav">
-                  <img
-                    src="/macbookpro.png"
-                    width={40}
-                    height={40}
-                    className="headerIcon"
-                    alt="Picture of the macbook logo"
-                  />
                   <span> MacBook Pro</span>
                 </Link>
 
                 <Link href="/macbookair" className="footerNav">
-                  <img
-                    src="/macbook.png"
-                    width={40}
-                    height={40}
-                    className="headerIcon"
-                    alt="Picture of the macbook logo"
-                  />
                   <span> MacBook Air</span>
                 </Link>
 
                 <Link href="/imac" className="footerNav">
-                  <img
-                    src="/imac.png"
-                    width={40}
-                    height={40}
-                    className="headerIcon"
-                    alt="Picture of the imac logo"
-                  />
                   <span> iMac</span>
                 </Link>
 
                 <Link href="/macmini" className="footerNav">
-                  <img
-                    src="/macmini.png"
-                    width={40}
-                    height={40}
-                    className="headerIcon"
-                    alt="Picture of the macmini logo"
-                  />
                   <span> Mac mini</span>
                 </Link>
               </div>
@@ -93,7 +65,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <small> Macos-service™ © 2023</small>
+            <small> Macos-service™ 2023</small>
             <small className="p-2 text-center  text-xs font-light">
               Ce site internet est protégé par les lois de protection de la
               propriété intellectuelle, recopier, imiter ou s&apos;inspirer de

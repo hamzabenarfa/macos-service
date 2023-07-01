@@ -64,21 +64,20 @@ export default function Page() {
             </div>
           ))}
         </div>
-      </section>
-      <section className="min-h-screen bg-[#000] ">
-        <div className="flex flex-col items-center p-8 ">
+      </section> 
+      <section className=" min-h-screen space-y-8 bg-[#000] p-8 -mt-80 md:mt-0 md:pt-14   ">
+        <div className="flex flex-col items-center justify-center space-y-8">
           <span className=" bg-gradient-to-r from-stone-500 to-zinc-500 bg-clip-text text-3xl font-bold text-transparent md:text-6xl">
-            Mac mini
+            Mac minis
           </span>
-
           <p className=" macmini">
-            Réparez et améliorez votre Mac mini en un clin d&apos;œil ! Des délais
-            rapides, un service de qualité.
+            Réparez et améliorez votre Mac mini en un clin d&apos;œil ! Des
+            délais rapides, un service de qualité.
           </p>
           <p className=" macmini">
-            Votre Mac mini ne s&apos;allume pas ? Écran VGA sombre ? Pas de carillon
-            au démarrage ? Pas de panique ! Notre équipe experte est là pour
-            résoudre tous ces problèmes et plus encore.
+            Votre Mac mini ne s&apos;allume pas ? Écran VGA sombre ? Pas de
+            carillon au démarrage ? Pas de panique ! Notre équipe experte est là
+            pour résoudre tous ces problèmes et plus encore.
           </p>
           <p className=" macmini">
             Des arrêts inopinés ? Pas de vidéo ? Ne vous inquiétez plus ! Nos
@@ -86,14 +85,14 @@ export default function Page() {
             rails.
           </p>
           <p className=" macmini">
-            Avec des délais d&apos;exécution rapides, nous proposons des services
-            complets de réparation et de mise à niveau pour votre Mac mini.
-            Faites confiance à notre expertise et retrouvez un Mac mini comme
-            neuf !
+            Avec des délais d&apos;exécution rapides, nous proposons des
+            services complets de réparation et de mise à niveau pour votre Mac
+            mini. Faites confiance à notre expertise et retrouvez un Mac mini
+            comme neuf !
           </p>
           <p className=" macmini">
             Contactez-nous dès maintenant et laissez-nous prendre soin de votre
-            Mac mini. Votre satisfaction est notre priorité ! 
+            Mac mini. Votre satisfaction est notre priorité !
           </p>
           <Button title="Appler maintenant" />
         </div>

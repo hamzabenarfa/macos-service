@@ -4,7 +4,7 @@ import Button from "@/app/components/Button/Button";
 export default function page() {
   return (
     <>
-      <section className="min-h-screen h-full bg-[#000]">
+      <section className="flex min-h-full flex-col items-center bg-[#000]">
         <img src="/macbookpro.jpg" alt="macbookpro" />
         <div className="flex flex-col items-center justify-center">
           <p className=" bg-gradient-to-r from-stone-500 to-zinc-500 bg-clip-text px-5 py-8 text-sm font-bold text-transparent md:text-center md:text-2xl">
@@ -18,8 +18,11 @@ export default function page() {
             modèles Apple MacBook Pro, y compris les générations 1, 2 (Unibody),
             3 (Retina), 4 (Touch Bar), M1 et M2.
           </p>
+          <div className="pb-8">
           <Button title="Appler maintenant" />
+          </div>
         </div>
+        
       </section>
     </>
   );
