@@ -1,22 +1,13 @@
-"use client"
+"use client";
 
 import Button from "@/app/components/Button/Button";
 export default function page() {
   return (
     <>
-      <section className="min-h-screen bg-[#000] relative">
-        <img
-          src="/macbookpro.jpg"
-          alt="macbookpro"
-          
-        
-        />
-      </section>
-      <section className="min-h-screen bg-[#000] relative">
-        <div className="flex flex-col items-center ">
-
-
-          <p className="block text-sm px-5 md:text-2xl font-bold md:px-96 md:text-center py-8  bg-gradient-to-r from-stone-500 to-zinc-500 text-transparent bg-clip-text">
+      <section className="min-h-screen h-full bg-[#000]">
+        <img src="/macbookpro.jpg" alt="macbookpro" />
+        <div className="flex flex-col items-center justify-center">
+          <p className=" bg-gradient-to-r from-stone-500 to-zinc-500 bg-clip-text px-5 py-8 text-sm font-bold text-transparent md:text-center md:text-2xl">
             Nous offrons un service de dépannage, réparation, récupération et
             mise à niveau de haute qualité pour tous les modèles MacBook Pro, y
             compris les tailles 13, 15, 16 et 17 pouces. Que votre MacBook Pro

@@ -21,7 +21,7 @@ export default function page() {
             3 (Retina), 4 (Touch Bar), M1 et M2.
           </p>
           <div className="pt-10">
-          <Button title="09 80 80 67 64" />
+            <Button title="09 80 80 67 64" />
           </div>
         </div>
         <div>
@@ -34,40 +34,34 @@ export default function page() {
         </div>
       </section>
 
-      {/* <section className="grid-rows-2 m-5 grid  min-h-screen place-items-center rounded-2xl bg-[#FBFBFB] md:hidden ">
-        <div className="flex flex-col items-center justify-center px-5 md:px-10">
-          <h1 className="text-center text-6xl text-color-[#1D1D1F]  capitalize">
-            macbook pro
+      <section className="m-4 p-8 flex min-h-screen flex-col gap-8 rounded-2xl bg-[#FBFBFB] md:hidden ">
+        <div className="flex flex-col items-center justify-center space-y-4 ">
+          <h1 className="text-color-[#1D1D1F] text-center text-6xl  capitalize">
+            macbook Air
           </h1>
-          <div className="pt-20">
-          <Button title="09 80 80 67 64" />
-          </div>
-        </div>
-        <div>
-        <img
-            src="/macbook_air_large.jpg"
-            width={738}
-            height={622}
-            alt="mac"
-          />
-        </div>
-      </section> */}
+          <p className="text-center">
+            Nous proposons un service de dépannage, réparation, récupération et
+            mise à niveau de haute qualité pour tous les modèles de MacBook Air,
+            y compris les tailles 11 pouces et 13 pouces. Que votre MacBook Air
+            rencontre des problèmes de carte logique, de batterie ou qu'il ait
+            simplement besoin d'une mise à niveau, notre équipe spécialisée dans
+            la réparation des produits Apple est là pour vous aider.
+            Contactez-nous dès aujourd'hui pour un service rapide et fiable sur
+            tous les modèles Apple MacBook Air, y compris les différentes
+            générations telles que M1 et M2.
+          </p>
 
-      {/* <section className="grid-rows-2 m-5 grid  h-full w-full p-24 place-items-center rounded-2xl bg-[#000000] md:mx-16">
-        <div className="flex flex-col items-center justify-center px-5 md:px-10">
-          <h1 className="text-center text-6xl capitalize text-white md:mt-3 md:text-8xl">
-            macbook pro
-          </h1>
+          <Button title="09 80 80 67 64" />
         </div>
         <div>
           <img
-            src="/macbook_air_m1_large.jpg"
-            width={1380}
-            height={486}
-            alt="mac"
+            src="/macbook_air_large.jpg"
+            width={738}
+            height={622}
+            alt="macbookair"
           />
         </div>
-      </section> */}
+      </section>
     </>
   );
 }
