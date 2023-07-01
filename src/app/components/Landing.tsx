@@ -1,25 +1,25 @@
 "use client"
-import { useState, useEffect } from "react";
+
 import Button from "./Button/Button";
 
 export default function Landing() {
-  const [showButton, setShowButton] = useState(false);
+  // const [showButton, setShowButton] = useState(false);
 
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 650) {
-        setShowButton(true);
-      } else {
-        setShowButton(false);
-      }
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     if (window.scrollY > 650) {
+  //       setShowButton(true);
+  //     } else {
+  //       setShowButton(false);
+  //     }
+  //   };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   window.addEventListener("scroll", handleScroll);
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
   return (
     <section className="mx-auto   flex max-w-[1350px] items-center justify-center px-8 pt-5 mb-16 ">
