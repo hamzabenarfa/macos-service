@@ -9,8 +9,8 @@ export default function page() {
         <div className="flex flex-col items-center justify-center">
           <p className=" bg-gradient-to-r from-stone-500 to-zinc-500 bg-clip-text px-5 py-8 text-sm font-bold text-transparent md:text-center md:text-2xl">
             Nous offrons un service de dépannage, réparation, récupération et
-            mise à niveau de haute qualité pour tous les modèles MacBook Pro, y
-            compris les tailles 13, 15, 16 et 17 pouces. Que votre MacBook Pro
+            mise à niveau de haute qualité pour tous les modèles MacBook Air, y
+            compris les tailles 13, 15, 16 et 17 pouces. Que votre MacBook Air
             présente des problèmes de carte logique, de batterie ou simplement
             besoin d&quot;une mise à niveau, notre équipe spécialisée dans la
             réparation des produits Apple est là pour vous aider. Contactez-nous
