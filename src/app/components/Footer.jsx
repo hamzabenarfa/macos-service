@@ -8,7 +8,7 @@ export default function Footer() {
       <footer>
         <div className="grid-row-2 grid h-full bg-gradient-to-t from-gray-200 to-gray-50 ">
           <div className="flex flex-row  items-center justify-between space-x-4">
-            <div className="flex w-full justify-center space-y-2 bg-teal-300 p-4">
+            <div className="flex w-full justify-center space-y-2 p-4">
               <div className="flex flex-col items-start">
                 <Link href="/macbookpro" className="footerNav">
                   <img
