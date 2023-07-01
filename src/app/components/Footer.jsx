@@ -35,9 +35,7 @@ export default function Footer() {
                 <p>09:00 H - 18:00 H</p>
               </div>
               <div className="flex flex-col items-start">
-                <p className="font-bold  text-xl hover:underline  ">
-                  <Link href="/cgv">C G V</Link>
-                </p>
+                
               </div>
             </div>
 
@@ -65,7 +63,14 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col items-center justify-center">
+            <div>
             <small> Macos-service™ 2023</small>
+            <small className="pl-4 hover:underline  ">
+              <Link href="/cgv">C G V</Link>
+            </small>
+            </div>
+           
+
             <small className="p-2 text-center  text-xs font-light">
               Ce site internet est protégé par les lois de la propriété
               intellectuelle. Toute reproduction, imitation ou utilisation non
