@@ -43,10 +43,10 @@ export default function page() {
             Nous proposons un service de dépannage, réparation, récupération et
             mise à niveau de haute qualité pour tous les modèles de MacBook Air,
             y compris les tailles 11 pouces et 13 pouces. Que votre MacBook Air
-            rencontre des problèmes de carte logique, de batterie ou qu'il ait
-            simplement besoin d'une mise à niveau, notre équipe spécialisée dans
+            rencontre des problèmes de carte logique, de batterie ou qu&apos;il ait
+            simplement besoin d&apos;une mise à niveau, notre équipe spécialisée dans
             la réparation des produits Apple est là pour vous aider.
-            Contactez-nous dès aujourd'hui pour un service rapide et fiable sur
+            Contactez-nous dès aujourd&apos;hui pour un service rapide et fiable sur
             tous les modèles Apple MacBook Air, y compris les différentes
             générations telles que M1 et M2.
           </p>
