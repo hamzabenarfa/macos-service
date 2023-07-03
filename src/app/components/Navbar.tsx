@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className="flex flex-col items-center justify-center md:w-2/6 ">
           <Link href="/" onClick={() => setNavbar(false)}>
             <div className="headerLink pt-4 text-left">
-              <p>Support Certifié </p>
+              <p className=" animate-fade-down animate-ease-in-out">Support Certifié </p>
               <p>Professionnel</p>
             </div>
           </Link>

@@ -25,7 +25,7 @@ export default function Landing() {
     <section className="mx-auto   flex max-w-[1350px] items-center justify-center px-8 pt-5 mb-16 ">
       <div className="space-y-8 text-center">
         <h1 className="space-y-3 text-4xl md:text-5xl font-semibold tracking-wide lg:text-6xl xl:text-5xl">
-          <span className="block bg-gradient-to-r from-pink-500 to-blue-500 text-transparent bg-clip-text">
+          <span className=" block  bg-gradient-to-r from-pink-500 to-blue-500 text-transparent bg-clip-text">
             Un Problème Sur votre Mac ?
           </span>
           <img src="/macpro.png" alt="mac" width={750} height={750} />
