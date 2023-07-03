@@ -11,13 +11,13 @@ export default function page() {
           </h1>
           <p className="text-color-[#767677]  md:text-sm">
             Nous offrons un service de dépannage, réparation, récupération et
-            mise à niveau de haute qualité pour tous les modèles MacBook Pro, y
-            compris les tailles 13, 15, 16 et 17 pouces. Que votre MacBook Pro
+            mise à niveau de haute qualité pour tous les modèles MacBook Air, y
+            compris les tailles 13, 15, 16 et 17 pouces. Que votre MacBook Air
             présente des problèmes de carte logique, de batterie ou simplement
             besoin d&apos;une mise à niveau, notre équipe spécialisée dans la
             réparation des produits Apple est là pour vous aider. Contactez-nous
             dès aujourd&apos;hui pour un service rapide et fiable sur tous les
-            modèles Apple MacBook Pro, y compris les générations 1, 2 (Unibody),
+            modèles Apple MacBook Air, y compris les générations 1, 2 (Unibody),
             3 (Retina), 4 (Touch Bar), M1 et M2.
           </p>
           <div className="pt-10">

@@ -1,8 +1,8 @@
 import Head from 'next/head'
 
 export const metadata = {
-  title: 'macos-service | macbookpro',
-  description: 'macbook pro website',
+  title: 'macos-service | macbookair',
+  description: 'macbook mini website',
 }
 
 export default function Layout({

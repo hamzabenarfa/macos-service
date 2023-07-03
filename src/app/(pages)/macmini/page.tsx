@@ -68,7 +68,7 @@ export default function Page() {
       <section className=" min-h-screen space-y-8  bg-[#000] p-8 -mt-80 md:mt-0 md:pt-14   ">
         <div className="flex flex-col items-center justify-center space-y-8">
           <span className=" bg-gradient-to-r from-stone-500 to-zinc-500 bg-clip-text text-3xl font-bold text-transparent md:text-6xl">
-            Mac minis
+            Mac mini
           </span>
           <p className=" macmini">
             Réparez et améliorez votre Mac mini en un clin d&apos;œil ! Des
@@ -92,7 +92,7 @@ export default function Page() {
           </p>
           <p className=" macmini">
             Contactez-nous dès maintenant et laissez-nous prendre soin de votre
-            Mac mini. Votre satisfaction est notre priorité !
+            Mac mini.
           </p>
           <Button title="Appler maintenant" />
         </div>
