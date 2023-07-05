@@ -6,11 +6,13 @@ export default function Service() {
     <>
       <section className=" min-h-screen  bg-[#FBFBFB]">
         <div className="space-y-10 py-16">
-          <h1 className="text-center text-5xl font-medium  tracking-wide">
-            <span className="block bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">
-              Nos services
+          <p className="text-center text-xl p-6 font-medium  tracking-wide">
+            <span className="block text-2xl bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">
+            Votre Mac a un problème ? 
             </span>
-          </h1>
+            <span className="block bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">il est bloqué, l'écran est figé, votre Mac tourne au ralenti, oubli de mot de passe , certains programmes ne fonctionnent plus…</span>
+            
+          </p>
           <div className="flex flex-wrap items-center justify-center  md:w-full ">
             <div className="flex flex-col items-center        p-4 md:w-1/2 ">
               <img
@@ -20,7 +22,7 @@ export default function Service() {
                 alt="lock"
                 className="headerIcon"
               />
-              <div className="servicetext">Déverrouillage de session</div>
+              <div className="servicetext">Problème de mot de passe ?</div>
             </div>
             <div className="flex flex-col items-center         p-4 md:w-1/2">
               <img
@@ -32,7 +34,7 @@ export default function Service() {
               />
 
               <div className="servicetext">
-                Mise à jour du système d&apos;exploitation
+              Pas de mise à jour possible !
               </div>
             </div>
             <div className="flex flex-col items-center         p-4 md:w-1/2">
@@ -45,7 +47,7 @@ export default function Service() {
               />
 
               <div className="servicetext">
-                Réinitialisation aux paramètres d&apos;usine
+              Votre Mac semble très lent ?
               </div>
             </div>
             <div className="flex flex-col items-center         p-4 md:w-1/2">
@@ -57,7 +59,7 @@ export default function Service() {
                 className="headerIcon"
               />
 
-              <div className="servicetext">Installation d&apos;applications</div>
+              <div className="servicetext">Votre Mac est figé sur la pomme ?</div>
             </div>
             <div className="flex flex-col items-center         p-4 md:w-1/2">
               <img
@@ -69,7 +71,7 @@ export default function Service() {
               />
 
               <div className="servicetext">
-                Configuration de boîte mail et d&apos;imprimante
+              Votre Mac est verrouillé ?
               </div>
             </div>
             <div className="flex flex-col items-center p-4 md:w-1/2">

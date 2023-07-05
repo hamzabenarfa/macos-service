@@ -41,10 +41,8 @@ export default function Footer() {
 
             <div className="flex w-full flex-col justify-center space-y-2 p-4">
               <div className="flex flex-col items-start">
-                <p className="text-lg font-bold">Tel</p>
-
                 <a href="tel:0980806764" className="hover:underline">
-                  09 80 80 67 64
+                <span className="text-lg font-bold">Tel</span> : 09 80 80 67 64
                 </a>
                 <small>appel non surtaxé!</small>
               </div>
@@ -63,13 +61,7 @@ export default function Footer() {
           </div>
 
           <div className="flex flex-col items-center justify-center">
-            <div>
-            <small> Macos-service™ 2023</small>
-            <small className="pl-4 hover:underline  ">
-              <Link href="/cgv">C G V</Link>
-            </small>
-            </div>
-           
+         
 
             <small className="p-2 text-center  text-xs font-light">
               Ce site internet est protégé par les lois de la propriété
@@ -83,6 +75,13 @@ export default function Footer() {
               équipe s&apos;efforce de vous offrir une assistance de qualité en
               exploitant au maximum nos compétences et notre expertise.
             </small>
+            <div>
+            <small> Macos-service™ 2023</small>
+            <small className="pl-4 hover:underline  ">
+              <Link href="/cgv">C G V</Link>
+            </small>
+            </div>
+           
           </div>
         </div>
       </footer>
