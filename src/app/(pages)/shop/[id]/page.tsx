@@ -5,10 +5,12 @@ import MacBookTable from "../MacBookTable";
 import { useEffect, useState } from "react";
 import { Mac } from "../../../components/_const/data";
 
+//@ts-ignore
 const ProductDetail = ({ params }) => {
   const [selectedProduct, setSelectedProduct] = useState(null);
   useEffect(() => {
     const product = Mac.find((item) => item.id === parseInt(params.id));
+    //@ts-ignore
     setSelectedProduct(product);
   }, [params.id]);
 

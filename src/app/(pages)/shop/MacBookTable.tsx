@@ -1,4 +1,5 @@
 "use client"
+//@ts-ignore
 const MacBookTable = ({ data }) => {
   return (
     <div className="overflow-hidden rounded-lg shadow-md">
@@ -13,7 +14,8 @@ const MacBookTable = ({ data }) => {
         {Object.entries(data).map(([key, value]) => (
           <tr key={key} className="">
             <td className="py-1 px-2 border-b font-semibold w-1/3">{key}</td>
-            <td className="py-1 px-2 border-b w-2/3">{value}</td>
+            
+            <td className="py-1 px-2 border-b w-2/3">{value as React.ReactNode}</td>
           </tr>
         ))}
       </tbody>

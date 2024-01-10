@@ -42,7 +42,7 @@ export default function Contact() {
               <div className="relative z-0 col-span-2">
                 <textarea
                   name="message"
-                  rows="5"
+                  rows={5}
                   className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent px-0 py-2.5 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0"
                   placeholder=" "
                 ></textarea>
