@@ -21,7 +21,7 @@ const Shop = () => {
           />
         ))}
       </div>
-      <Link href="/shop">
+      <Link href="/shops">
       <button className="focus:shadow-outline rounded-xl w-32
         bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 hover:bg-gradient-to-tr 
         px-6 py-3 text-center text-xs text-white shadow md:text-sm font-semibold focus:outline-none">
