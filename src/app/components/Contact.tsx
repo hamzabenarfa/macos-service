@@ -61,9 +61,6 @@ export default function Contact() {
         </div>
 
         <div className="">
-          {/* <h1>Horaires d'ouvertures</h1>
-          <p>Du Lundi a vendredi</p>
-          <p>Du 9h a 6h</p> */}
           <img
             src="/contactpic.jpg"
             width={500}

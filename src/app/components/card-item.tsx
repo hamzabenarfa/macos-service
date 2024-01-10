@@ -9,22 +9,23 @@ interface CardItemProps {
 }
 const CardItem = ({ title, price, img, id }: CardItemProps) => {
   return (
-    <div className="flex max-w-xs flex-col border-1 shadow-xs justify-center rounded-xl border-white bg-white p-4 ">
+    <div className="grid max-w-xs place-items-center	 grid-rows-1 border-1 shadow-xs rounded-xl border-white bg-white p-4 gap-4">
+    <Link href={`/shop/${id}`} className="row-span-1">
+      
+      <img src={img} alt={title} className="w-full  cursor-pointer " />
+    </Link>
+    <div className="row-span-1">
       <Link href={`/shop/${id}`}>
-        <img src={img} alt="mac" />
+        <h1 className="font-bold">{title}</h1>
       </Link>
-      <div className="flex flex-col gap-2">
-        <Link href={`/shop/${id}`}>
-          <h1 className=" font-bold">{title}</h1>
-        </Link>
-
-        <div className="flex justify-between">
-          <h1 className=" text-sm font-semibold">{price}</h1>
-          <p className=" text-sm font-semibold text-teal-700">En stock</p>
-        </div>
-      </div>
-      <ShopBtn />
     </div>
+    <div className="flex justify-between place-self-stretch  row-span-1">
+      <h1 className="text-sm font-semibold">{price}</h1>
+      <p className="text-sm font-semibold text-teal-700">En stock</p>
+    </div>
+  
+    <ShopBtn />
+  </div>
   );
 };
 

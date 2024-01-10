@@ -1,6 +1,4 @@
 "use client"
-import img from "next/image"
-
 export default function Support() {
   return (
     <div>

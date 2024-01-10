@@ -11,9 +11,6 @@ export default function FixedBar() {
             Appelez-nous  09 80 80 67 64
           </a>
         </p>
-        {/* <a href="tel:0980806764">
-          <img src="call.gif" alt="appel" />
-        </a> */}
       </div>
     </>
   );

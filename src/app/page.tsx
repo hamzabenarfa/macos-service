@@ -7,7 +7,7 @@ import Shop from "./components/shop";
 export default function Home() {
   return (
     <>
-      <main className="  bg-[#FBFBFB] ">
+      <main className="bg-[#FBFBFB] ">
        
         <Landing />
         <Support />

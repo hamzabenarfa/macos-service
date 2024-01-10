@@ -20,8 +20,11 @@ const ProductDetail = ({ params }) => {
     <div className="flex min-h-screen flex-col gap-4 p-4 md:px-32">
       <h1 className="text-xl md:text-5xl font-bold">{title}</h1>
 
-      <div className="flex items-center justify-between flex-col md:flex-row md:p-4">
-        <img src={img} alt="mac" />
+      <div className="flex items-center justify-between flex-col md:flex-row ">
+       <div className="flex items-center justify-center w-full ">
+
+        <img src={img} alt="mac" className="w-full " />
+       </div>
         <div className="flex w-full max-w-lg flex-col items-center justify-center 
         gap-2 rounded-xl border-2 px-10 py-6 ">
           <div className="flex flex-col items-center justify-center gap-2">

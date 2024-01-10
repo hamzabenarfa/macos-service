@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "macos-service",
-  description: "apple website",
+  description: "Bienvenue sur MacOS-Service, votre destination en ligne exclusive dédiée à la vente de MacBook reconditionnés, Explorez notre collection soigneusement sélectionnée de MacBook remis à neuf, offrant des performances exceptionnelles à des prix imbattables.",
 };
 
 export default function RootLayout({
