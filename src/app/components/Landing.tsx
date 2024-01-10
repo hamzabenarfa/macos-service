@@ -15,7 +15,7 @@ export default function Landing() {
           <span className="block text-3xl md:text-5xl">Contacter le Support</span>
           <img src="/macpro.png" alt="mac" className=" w-full"/>
         
-          <span className="block text-xl font-semibold md:text-3xl">Obtenez rapidement l'assistance dont vous avez besoin, sans vous déplacer en magasin.</span>
+          <span className="block text-xl font-semibold md:text-3xl">Obtenez rapidement l&apos;assistance dont vous avez besoin, sans vous déplacer en magasin.</span>
         
         </h1>
         <div>
