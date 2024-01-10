@@ -10,7 +10,7 @@ export default function Service() {
             <span className="block text-2xl bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">
             Votre Mac a un problème ? 
             </span>
-            <span className="block bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">il est bloqué, l'écran est figé, votre Mac tourne au ralenti, oubli de mot de passe , certains programmes ne fonctionnent plus…</span>
+            <span className="block bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent">il est bloqué, l&apos;écran est figé, votre Mac tourne au ralenti, oubli de mot de passe , certains programmes ne fonctionnent plus…</span>
             
           </p>
           <div className="flex flex-wrap items-center justify-center  md:w-full ">
