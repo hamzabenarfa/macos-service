@@ -1,10 +1,13 @@
 const ShopBtn = () => {
-    return ( 
-       <button className="text-xs md:text-sm bg-gradient-to-r from-red-200 via-red-300 to-yellow-200 mt-2
-       text-white rounded-xl shadow hover:bg-primary/90 h-10 px-4 py-2 hover:bg-gradient-to-tr ">
-            Appeler maintenant
-       </button>
-     );
-}
- 
+  return (
+    <a
+      href="tel:0980806764"
+      className=" hover:bg-primary/90 mt-2 h-10 rounded-xl bg-gradient-to-r from-red-200 via-red-300 to-yellow-200
+      px-4 py-2 text-center text-xs text-white shadow hover:bg-gradient-to-tr md:text-sm "
+    >
+      Appeler maintenant
+    </a>
+  );
+};
+
 export default ShopBtn;
