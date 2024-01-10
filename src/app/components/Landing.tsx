@@ -3,23 +3,7 @@
 import Button from "./Button/Button";
 
 export default function Landing() {
-  // const [showButton, setShowButton] = useState(false);
 
-
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     if (window.scrollY > 650) {
-  //       setShowButton(true);
-  //     } else {
-  //       setShowButton(false);
-  //     }
-  //   };
-
-  //   window.addEventListener("scroll", handleScroll);
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
 
   return (
     <section className="mx-auto   flex max-w-[1350px] items-center justify-center px-2 pt-4 mb-16 ">
@@ -29,7 +13,7 @@ export default function Landing() {
           Vous rencontrez des difficultés avec votre Mac ?
           </span>
           <span className="block text-3xl md:text-5xl">Contacter le Support</span>
-          <img src="/macpro.png" alt="mac" width={750} height={750} />
+          <img src="/macpro.png" alt="mac" className=" w-full"/>
         
           <span className="block text-xl font-semibold md:text-3xl">Obtenez rapidement l'assistance dont vous avez besoin, sans vous déplacer en magasin.</span>
         
@@ -38,11 +22,7 @@ export default function Landing() {
           <Button title="09 80 80 67 64" />
           <small>Appel gratuit non surtaxé</small>
         </div>
-        {/* <div
-          className={`${showButton ? "fixed bottom-4 right-4 " : ""} `}
-        >
-          <Button title="09 80 80 67 64" />
-        </div> */}
+
       </div>
     </section>
   );

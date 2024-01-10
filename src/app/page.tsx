@@ -3,6 +3,7 @@ import Landing from "./components/Landing";
 import Service from "./components/Service";
 import Support from "./components/Support";
 import Entreprise from "./components/Entreprise";
+import Shop from "./components/shop";
 export default function Home() {
   return (
     <>
@@ -10,7 +11,8 @@ export default function Home() {
        
         <Landing />
         <Support />
-        <Service />
+        <Shop />
+        {/* <Service /> */}
         <Entreprise />
       </main>
     </>
