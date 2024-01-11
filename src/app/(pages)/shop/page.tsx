@@ -50,7 +50,7 @@ const ProductDetail = () => {
           <div className="flex flex-col md:flex-row items-center justify-center gap-1">
             <div className="flex max-w-[120px]  flex-col items-center justify-center p-2">
               <ShieldCheck size={32} className="text-green-600" />
-              <p className=" text-center">Garantie de rachat de 3 ans</p>
+              <p className=" text-center">Garantie de rachat d&apos;un ans</p>
             </div>
             <div className="flex max-w-[120px]  flex-col items-center justify-center p-2">
               <Undo2 size={32} className="text-green-600" />
@@ -70,6 +70,7 @@ const ProductDetail = () => {
         </h1>
         <MacBookTable data={MacInfo} />
       </div>
+ 
     </div>
   );
 };
