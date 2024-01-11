@@ -9,7 +9,7 @@ const Payment = () => {
         <img src="/mastercard.png" alt="paypal" className="w-12" />
         <img src="/g3.png" alt="paypal" className="w-12" />
       </div> */}
-      <img src="/payemnt.jpeg" alt="payment" />
+      <img src="/payment.jpg" alt="payment" className="md:w-1/2" />
     </div>
   );
 };
