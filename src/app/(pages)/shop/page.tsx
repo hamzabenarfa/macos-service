@@ -22,7 +22,9 @@ const ProductDetail = () => {
   }, [eventId]);
 
   if (!selectedProduct) {
-    return <div>Loading or Product Not Found</div>;
+    return <div className="min-h-screen flex items-center justify-center">
+              Loading...
+           </div>;
   }
   const { img, title, price, MacInfo, description } = selectedProduct;
   return (
