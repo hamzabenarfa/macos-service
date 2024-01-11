@@ -6,19 +6,36 @@ import { useEffect, useState } from "react";
 import { Mac } from "../../components/_const/data";
 import { useSearchParams } from 'next/navigation'
 
-//@ts-ignore
+interface Product {
+  id: number;
+  img: string;
+  title: string;
+  price: string;
+  description: string;
+  MacInfo?: {
+    Model: string;
+    Processor: string;
+    RAM: string;
+    Storage: string;
+    Display: string;
+    Graphics: string;
+    Ports?: string; // Make Ports property optional
+    OS: string;
+  };
+}
+
+// Component
 const ProductDetail = () => {
   const searchParams = useSearchParams()
-  const eventId = searchParams.get('id')
+  const eventId: string  = searchParams.get('id') || ""
 
+  const [selectedProduct, setSelectedProduct] = useState<Product |null>(null);
 
-  const [selectedProduct, setSelectedProduct] = useState(null);
   useEffect(() => {
-
-    //@ts-ignore
+    // Fetch product details based on event ID
     const product = Mac.find((item) => item.id === parseInt(eventId));
     //@ts-ignore
-    setSelectedProduct(product);
+    setSelectedProduct(product );
   }, [eventId]);
 
   if (!selectedProduct) {
@@ -50,7 +67,7 @@ const ProductDetail = () => {
           <div className="flex flex-col md:flex-row items-center justify-center gap-1">
             <div className="flex max-w-[120px]  flex-col items-center justify-center p-2">
               <ShieldCheck size={32} className="text-green-600" />
-              <p className=" text-center">Garantie de rachat d&apos;un ans</p>
+              <p className=" text-center">1 an de garantie</p>
             </div>
             <div className="flex max-w-[120px]  flex-col items-center justify-center p-2">
               <Undo2 size={32} className="text-green-600" />

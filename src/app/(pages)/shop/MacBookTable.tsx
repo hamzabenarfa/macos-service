@@ -11,7 +11,7 @@ const MacBookTable = ({ data }) => {
         </tr>
       </thead>
       <tbody>
-        {Object.entries(data).map(([key, value]) => (
+        {data && Object.entries(data).map(([key, value]) => (
           <tr key={key} className="">
             <td className="py-1 px-2 border-b font-semibold w-1/3">{key}</td>
             

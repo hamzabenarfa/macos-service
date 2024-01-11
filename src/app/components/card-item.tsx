@@ -1,3 +1,5 @@
+'use client'
+import Link from "next/link";
 import ShopBtn from "./Button/Shop-Button";
 
 interface CardItemProps {
@@ -9,14 +11,14 @@ interface CardItemProps {
 const CardItem = ({ title, price, img, id }: CardItemProps) => {
   return (
     <div className="grid max-w-xs place-items-center	 grid-rows-1 border-1 shadow-xs rounded-xl border-white bg-white p-4 gap-4">
-    <a href={`/shop?id=${id}`} className="row-span-1">
+    <Link href={`/shop?id=${id}`} className="row-span-1">
       
       <img src={img} alt={title} className="w-full  cursor-pointer " />
-    </a>
+    </Link>
     <div className="row-span-1">
-      <a href={`/shop/${id}`}>
+      <Link href={`/shop?id=${id}`}>
         <h1 className="font-bold">{title}</h1>
-      </a>
+      </Link>
     </div>
     <div className="flex justify-between place-self-stretch  row-span-1">
       <h1 className="text-sm font-semibold">{price}</h1>

@@ -1,3 +1,4 @@
+"use client"
 import CardItem from "./card-item";
 import { Mac } from "./_const/data";
 import Link from "next/link";
@@ -8,11 +9,9 @@ const Shop = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-2 bg-gray-200 p-4">
       <h1 className=" text-center text-3xl font-bold">
-        Explorez l&apos;excellence Apple à prix irrésistible :
+        La Boutique Mac
       </h1>
-      <h1 className=" text-center text-2xl font-bold">
-        Nos Mac reconditionnés offrent puissance fiabilité d&apos;un Mac neuf,
-      </h1>
+     
       <h1 className=" text-xl font-semibold ">
         Rejoignez l&apos;univers Apple reconditionné pour une immersion
         innovante à moindre coût !
