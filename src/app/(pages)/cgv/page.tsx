@@ -45,7 +45,7 @@ export default function page() {
           </p>
           <p>L&apos;adresse de notre site-web : www.macos-service.fr</p>
           <p>Service clients : contact@macos-service.fr</p>
-          <p>Telephone: +33 09 80 80 67 64</p>
+          <p>Telephone: +33 09 80 80 36 43</p>
           <p>Address: 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ.</p>
         </div>
 

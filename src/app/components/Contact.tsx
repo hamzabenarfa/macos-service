@@ -7,7 +7,7 @@ export default function Contact() {
         <div className="mx-10 w-full max-w-3xl ">
           <h1 className="text-5xl font-medium">Contactez-nous</h1>
           <p className="mt-3">
-            Appelez-nous au 09 80 80 67 64 ou envoyez-nous un message ici :
+            Appelez-nous au 09 80 80 36 43 ou envoyez-nous un message ici :
           </p>
 
           <form className="mt-10">

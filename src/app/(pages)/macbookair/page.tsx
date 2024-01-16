@@ -21,7 +21,7 @@ export default function page() {
             3 (Retina), 4 (Touch Bar), M1 et M2.
           </p>
           <div className="pt-10">
-            <Button title="09 80 80 67 64" />
+            <Button title="09 80 80 36 43" />
           </div>
         </div>
         <div>
@@ -51,7 +51,7 @@ export default function page() {
             générations telles que M1 et M2.
           </p>
 
-          <Button title="09 80 80 67 64" />
+          <Button title="09 80 80 36 43" />
         </div>
         <div>
           <img

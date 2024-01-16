@@ -67,7 +67,7 @@ const ProductDetail = () => {
           <div className="flex flex-col md:flex-row items-center justify-center gap-1">
             <div className="flex max-w-[120px]  flex-col items-center justify-center p-2">
               <ShieldCheck size={32} className="text-green-600" />
-              <p className=" text-center">1 an de garantie</p>
+              <p className=" text-center">1 an <br /> de  garantie</p>
             </div>
             <div className="flex max-w-[120px]  flex-col items-center justify-center p-2">
               <Undo2 size={32} className="text-green-600" />

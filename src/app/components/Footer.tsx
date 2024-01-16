@@ -41,8 +41,8 @@ export default function Footer() {
 
             <div className="flex w-full flex-col justify-center space-y-2 p-4">
               <div className="flex flex-col items-start">
-                <a href="tel:0980806764" className="hover:underline">
-                <span className="text-lg font-bold">Service client</span> : 09 80 80 67 64
+                <a href="tel:0980803643" className="hover:underline">
+                <span className="text-lg font-bold">Service client</span> : 09 80 80 36 43
                 </a>
                 <small>appel non surtaxé!</small>
               </div>
@@ -50,10 +50,11 @@ export default function Footer() {
                 <p className="text-lg font-bold">Email</p>
                 <p className="text-semibold underline ">
                   <a
-                    href="mailto: contact@macos-service.fr"
+                    href="mailto: support@macos-service.com"
                     className="mr-4 hover:underline md:mr-6"
                   >
-                    contact@macos-service.fr
+                    support@macos-service.com
+
                   </a>
                 </p>
               </div>
