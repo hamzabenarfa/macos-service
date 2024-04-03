@@ -5,6 +5,7 @@ import { useState } from "react";
 import Button from "./Button/Button";
 export default function Navbar() {
   const [Navbar, setNavbar] = useState(false);
+  
   return (
     <div>
       <header className=" flex w-full items-center justify-between bg-[#F9F9FA] p-4 ">
@@ -18,55 +19,41 @@ export default function Navbar() {
         </div>
 
         <div className="hidden xl:flex  md:w-3/6 md:flex-1 md:justify-center md:gap-4 md:space-x-8">
-          <Link href="/macbookpro" className="flex flex-col items-center">
-            <img
-              src="/macbookpro.png"
-              width={50}
-              height={50}
-              className="headerIcon"
-              alt="Picture of the macbook logo"
-            />
-            MacBook Pro
+          <Link href="/" className="flex flex-col items-center">
+            Accueil
           </Link>
 
-          <Link href="/macbookair" className="flex flex-col items-center">
-            <img
-              src="/macbook.png"
-              width={50}
-              height={50}
-              className="headerIcon"
-              alt="Picture of the macbook logo"
-            />
-            MacBook Air
+          <Link
+            href="/#produit"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = '/#produit';
+            }}
+          >
+            <p className="flex flex-col items-center">Produit</p>
           </Link>
 
-          <Link href="/imac" className="flex flex-col items-center">
-            <img
-              src="/imac.png"
-              width={50}
-              height={50}
-              className="headerIcon"
-              alt="Picture of the imac logo"
-            />
-            iMac
+
+          <Link
+            href="/#tarif"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = '/#tarif';
+            }}
+          >
+            <p className="flex flex-col items-center">Tarif</p>
           </Link>
 
-          <Link href="/macmini" className="flex flex-col items-center">
-            <img
-              src="/macmini.png"
-              width={50}
-              height={50}
-              className="headerIcon"
-              alt="Picture of the macmini logo"
-            />
-            Mac mini
+          <Link href="/about" className="flex flex-col items-center capitalize">
+
+            à propos de nous
           </Link>
 
-         
+
         </div>
         <div className="hidden flex-1 items-center justify-center gap-x-3 md:flex md:w-1/6">
-            <Button title="09 80 80 36 43" />
-          </div>
+          <Button title="09 80 80 36 43" />
+        </div>
         <div className="pr-2 md:hidden">
           {Navbar ? (
             <img
@@ -90,70 +77,49 @@ export default function Navbar() {
         </div>
       </header>
       <div
-        className={`flex-1 justify-self-center  ${
-          Navbar ? "block md:p-0" : "hidden"
-        }`}
+        className={`flex-1 justify-self-center  ${Navbar ? "block md:p-0" : "hidden"
+          }`}
       >
         {Navbar && (
           <div className="flex-col justify-center bg-[#F9F9FA]">
             <Link
-              href="/macbookpro"
+              href="/"
               className="flex flex-col items-center"
               onClick={() => setNavbar(!Navbar)}
             >
-              <img
-                src="/macbookpro.png"
-                width={50}
-                height={50}
-                className="headerIcon"
-                alt="Picture of the macbook logo"
-              />
-              <p>MacBook Pro</p>
+
+              <p>Accueil</p>
             </Link>
 
             <Link
-              href="/macbookair"
-              className="flex flex-col items-center"
-              onClick={() => setNavbar(!Navbar)}
+              href="/#produit"
+              onClick={(e) => {
+                e.preventDefault();
+                setNavbar(!Navbar);
+                window.location.href = '/#produit';
+              }}
             >
-              <img
-                src="/macbook.png"
-                width={50}
-                height={50}
-                className="headerIcon"
-                alt="Picture of the macbook logo"
-              />
-              MacBook Air
+              <p className="flex flex-col items-center">Produit</p>
             </Link>
 
             <Link
-              href="/imac"
-              className="flex flex-col items-center"
-              onClick={() => setNavbar(!Navbar)}
+              href="/#tarif"
+              onClick={(e) => {
+                e.preventDefault();
+                setNavbar(!Navbar);
+                window.location.href = '/#tarif';
+              }}
             >
-              <img
-                src="/imac.png"
-                width={50}
-                height={50}
-                className="headerIcon"
-                alt="Picture of the imac logo"
-              />
-              iMac
+              <p className="flex flex-col items-center">Tarif</p>
             </Link>
 
             <Link
-              href="/macmini"
-              className="flex flex-col items-center"
+              href="/about"
+              className="flex flex-col items-center capitalize"
               onClick={() => setNavbar(!Navbar)}
             >
-              <img
-                src="/macmini.png"
-                width={50}
-                height={50}
-                className="headerIcon"
-                alt="Picture of the macmini logo"
-              />
-              Mac mini
+
+              à propos de nous
             </Link>
           </div>
         )}
@@ -161,3 +127,5 @@ export default function Navbar() {
     </div>
   );
 }
+
+
