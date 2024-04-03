@@ -8,11 +8,11 @@ const Shop = () => {
 
   return (
     <div className="flex flex-col items-center justify-center gap-2 bg-gray-200 p-4">
-      <h1 className=" text-center text-3xl font-bold">
+      <h1 className="  text-center text-3xl font-bold" id="produit">
         La Boutique Mac
       </h1>
      
-      <h1 className=" text-xl font-semibold ">
+      <h1 className=" text-xl font-semibold text-center ">
         Rejoignez l&apos;univers Apple reconditionné pour une immersion
         innovante à moindre coût !
       </h1>

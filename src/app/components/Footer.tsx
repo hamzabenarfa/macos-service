@@ -1,4 +1,3 @@
-"use client";
 import Link from "next/link";
 import React from "react";
 
@@ -9,30 +8,30 @@ export default function Footer() {
         <div className="grid-row-2 grid h-full bg-gradient-to-t from-gray-200 to-gray-50 ">
           <div className="flex flex-col items-center  space-x-4 md:flex-row md:justify-between">
             <div className="flex w-full justify-start space-y-2 p-6 md:justify-center">
-              <div className="flex flex-col items-start space-y-2">
-                <Link href="/macbookpro" className="footerNav">
-                  <span> MacBook Pro</span>
-                </Link>
-
-                <Link href="/macbookair" className="footerNav">
-                  <span> MacBook Air</span>
-                </Link>
-
-                <Link href="/imac" className="footerNav">
-                  <span> iMac</span>
-                </Link>
-
-                <Link href="/macmini" className="footerNav">
-                  <span> Mac mini</span>
-                </Link>
-              </div>
-            </div>
-
-            <div className="flex w-full flex-col justify-center space-y-2 p-4">
               <div className="flex flex-col items-start">
                 <p className="text-lg font-bold">Horaires d&apos;ouvertures</p>
                 <p className=" capitalize">du lundi au vendredi </p>
                 <p>09:00 H - 18:00 H</p>
+                <p>{""}</p>
+                <br />
+                
+              </div>
+           
+              
+            </div>
+
+            <div className="flex w-full flex-col justify-center space-y-2 p-4">
+              <div className="flex flex-col items-start">
+                <p className="text-lg font-bold">Informations légales</p>
+                <Link href="/about">
+                 <p className=" capitalize hover:underline">À propos de nous</p>
+                </Link>
+                <Link href="/mentions-legales" >
+                  <p className="hover:underline">Mentions légales </p>
+                </Link>
+                <Link href="/cgv" >
+                  <p className="hover:underline"> CGV</p>
+                </Link>
               </div>
               <div className="flex flex-col items-start">
                 

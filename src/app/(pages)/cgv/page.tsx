@@ -3,179 +3,192 @@
 export default function page() {
   return (
     <>
-      <section className="bg-[#F5F5F7] p-6 px-8  text-justify md:px-24">
-        <h1 className="pb-4 text-center text-3xl font-bold ">
-          Conditions Générales
+      <section className="bg-[#F5F5F7]  space-y-2 p-6 px-8 text-justify md:px-24">
+        <h1 className="pb-4 text-center text-3xl font-bold">
+          Condition Générales de vente et prestation de service en ligne
         </h1>
 
-        <div className="space-y-4 pt-8">
-          <p className="text-xl font-semibold">
-            Condition Générales de vente et prestation de service :
-          </p>
-          <p>
-            Macos-Service LTD est un centre d&apos;assistance et de vente en
-            ligne International payant privé par téléphone.
-          </p>
-          <p>Activité Principale: </p>
-          <p>
-            -Notre activité principale et de trouver des solutions pour
-            améliorer votre utilisations des produits Apple.{" "}
-          </p>
-          <p>
-            -Conseils pour l&apos;acquisition d&apos;un nouvel équipement :
-            ordinateur, tablette, périphériques divers, appareils multimédia{" "}
-          </p>
-          <p>-Première mise en service de votre nouveau matériel </p>
-          <p>
-            -Installation ou réinstallation d&apos;un système
-            d&apos;exploitation, de logiciels avec licence ou libre de droit,
-            configuration de ces logiciels et formation à leur utilisation.{" "}
-          </p>
-          <p>
-            Nous mettons tout en oeuvre pour remettre en état l&apos;ordinateur
-            Mac de nos clients en proposant des solutions personnalisé pour
-            chaque utilisateurs
-          </p>
-        </div>
-        <div className="space-y-2 pt-8">
-          <p className="font-semibold">Présentation De La Société</p>
-          <p>
-            Macos-Service LTD : est un site privé de service informatique et de
-            vente à distance
-          </p>
-          <p>L&apos;adresse de notre site-web : www.macos-service.fr</p>
-          <p>Service clients : support@macos-service.com</p>
-          <p>Telephone: +33 09 80 80 36 43</p>
-          <p>Address: 71-75 Shelton Street, Covent Garden, London, WC2H 9JQ.</p>
-        </div>
+        <p className="pt-8">
+          Macos-Service est un site Internet spécialisé dans la vente et le
+          dépannage des produits Apple, accessible via www.macos-service.com
+          (ci-après désigné sous le nom de « le Site »), et géré par
+          l'entreprise Macos-Service LTD. Nous proposons des services
+          d'assistance à distance pour une gamme étendue d'appareils
+          électroniques, notamment des ordinateurs, des smartphones et des
+          tablettes de marque Apple. Ces services sont disponibles pour les
+          clients professionnels et particuliers à travers le monde (ci-après
+          désignés sous le nom de « le Client » pour la France).
+        </p>
+        <p>
+          Veuillez noter que Macos-Service n'est pas affilié à l'assistance
+          officielle d'Apple ; nous sommes plutôt un centre d'assistance privé
+          accessible par téléphone moyennant des frais.
+        </p>
 
-        <div className="space-y-2 pt-8">
-          <p className="font-semibold">Le Client garantit :</p>
-          <p>
-            Être une personne physique majeure, âgée de plus de dix-huit (18)
-            ans,Et de ne pas être sous tutelle ou curatelle. Être le
-            propriétaire de l&apos;Appareil et l&apos;avoir acquis de manière
-            régulière. Il garantit notamment que l&apos;Appareil n&apos;est pas
-            un objet volé ou acquis frauduleusement. Le client reconnaît et
-            accepte que l&apos;intervention de Macos-Service LTD sur son
-            Appareil puisse peut entraîner une rupture de garantie du fabricant
-            et/ou du vendeur de l&apos;Appareil. Le client accepte de recevoir
-            toutes informations concernant la prestation, la facture et plus
-            généralement l&apos;exécution des présentes conditions générales par
-            courrier électronique.
-          </p>
-        </div>
+        <h2 className="pt-8 pb-4 text-2xl font-bold">1 - Objet</h2>
+        <p>
+          Les présentes conditions générales ont pour objet de définir les
+          conditions et modalités de l’assistance pour le ou les appareils que
+          le Client souhaite faire dépanner (ci-après « l’Appareil ») Toute
+          passation de commande par le Client emporte l’acceptation sans réserve
+          et irrévocable des présentes conditions générales, dont le Client
+          reconnaît avoir pris connaissance préalablement à la passation de sa
+          commande. Macos-service se réserve la possibilité de modifier, à tout
+          moment et à son entière discrétion, les présentes conditions générales.
+        </p>
 
-        <div className="space-y-2 pt-8">
-          <p className="font-semibold">Droits Et Devoirs Du Client</p>
-          <p>
-            Avant de contacter Macos-Service LTD, le Client s&apos;engage à
-            avoir effectué une sauvegarde de l&apos;ensemble de ses données
-            personnelles stockées dans son Appareil, afin de pouvoir les
-            récupérer en cas de perte ou de destruction accidentelle.{" "}
-          </p>
-          <p>
-            Le client s&apos;engage également à être le propriétaire d&apos;une
-            connexion internet fixe et à disposer d&apos;un réseau sans fil
-            Wi-Fi au moment de la réparation auquel son appareil à réparer peut
-            se connecter. Le client s&apos;engage également à disposer de son
-            mot de passe de connexion afin de se connecter à ce réseau Wi-Fi en
-            cas de dépannage. Le client s&apos;engage à fournir un numéro de
-            téléphone sur lequel il peut être joint immédiatement. Le client
-            s&apos;engage également à être disponible pendant le temps
-            nécessaire au dépannage et/ou au moins pendant un minimum de 20
-            minutes.
-          </p>
-        </div>
-        <div className="space-y-2 pt-8">
-          <p className="font-semibold">
-            Droits et devoirs de Macos-Service LTD :
-          </p>
-          <p>
-            Macos-Service LTD n&apos;est en aucun cas tenue à une obligation de
-            résultat mais uniquement de moyen. Dans cette optique, notre société
-            mettra tout en œuvre pour que sa prestation soit la meilleure
-            possible. Macos-Service LTD se réserve le droit d&apos;intervenir si
-            le client ne détient pas officiellement le matériel et les logiciels
-            installés sur son équipement. Notre intervenant n&apos;installera
-            aucun logiciel dont le client n&apos;aura pas préalablement acquis
-            les droits d&apos;utilisation par l&apos;achat d&apos;une licence.
-          </p>
-          <p>
-            Etant donné que Macos-Service LTD « intervient sur demande expresse
-            du client, la société ne pourra en aucun cas être tenue pour
-            responsable des dommages directs et/ou indirects, matériels ou
-            immatériels, que pourraient entrainer un mauvais ou un non
-            fonctionnement du matériel dépanné. Le client est informé que
-            l&apos;intervention sur son matériel pourra entraîner une rupture de
-            la garantie constructeur, à laquelle ne se substituera pas une
-            garantie de Macos-Service LTD et n&apos;assurera aucune garantie de
-            ce matériel.
-          </p>
-          <p className="font-semibold">Commande et vente passée sur le site:</p>
-          <p>
-            Macos-Service LTD ne pratique pas de démarchage, c&apos;est le
-            Client qui contacte directement le service. Lorsque le Client
-            sollicite personnellement Macos-Service LTD, ce dernier décide seul
-            de souscrire au service proposé. Le client donne ensuite son
-            approbation pour le règlement et se voit remettre un reçu avec le
-            montant. Pour la commande des produits ou les prestations via le
-            site , Le règlement se fait via un lien de paiement envoyé au client
-            qui le valide lui même via une plate-forme sécurisé (Stripe,Paypal)
-          </p>
-        </div>
+        <h2 className="pt-8 pb-4 text-2xl font-bold">
+          2 - Facteurs décisifs liés au Client et à l'Appareil
+        </h2>
+        <p>
+          Le Client certifie les éléments suivants : Être un individu majeur de
+          dix-huit (18) ans ou plus, et posséder la pleine capacité juridique
+          pour contractualiser. Être le propriétaire légitime de l’Appareil,
+          l'ayant acquis de manière licite. Il garantit que l’Appareil n'a pas
+          été volé ni acquis de manière frauduleuse. Dans le cas où l’Appareil
+          est encore couvert par la garantie du fabricant ou du vendeur, le
+          Client comprend que les réparations pourraient être effectuées
+          gratuitement par ces entités, tandis que les services de réparation
+          proposés par Macos-service sont payants. Le Client reconnaît et
+          accepte que toute intervention de Macos-service sur son Appareil
+          pourrait entraîner une invalidation de la garantie du fabricant et/ou
+          du vendeur. Le Client consent à recevoir toutes communications
+          relatives aux prestations, aux factures et à l'exécution des présentes
+          conditions générales par voie électronique.
+        </p>
 
-        <div className="space-y-2 pt-8">
-          <p className="font-semibold">GARANTIES :</p>
-          <p>
-            Les manipulations proposées par Macos-Service LTDe n&apos;offrent
-            aucune garantie de résultat. La responsabilité de Macos-Service LTD
-            ne saurait être engagée pour les conséquences directes ou indirectes
-            qu&apos;entraînerait le mauvais fonctionnement ou le
-            non-fonctionnement de l&apos;équipement du client et notamment toute
-            perte de données, non conformité, incompatibilité, dysfonctionnement
-            ou dégradation consécutive ou non à son intervention. En aucun cas,
-            et quelle que soit la prestation demandée, Macos-Service LTD ne
-            pourra être tenu pour responsable d&apos;un endommagement du
-            matériel et/ou d&apos;une perte totale ou partielle des données
-            informatiques du client, quelle qu&apos;en soit la raison.
-          </p>
-        </div>
+        <h2 className="pt-8 pb-4 text-2xl font-bold">
+          3 - Commande de la prestation de dépannage par téléphone
+        </h2>
+        <p>
+          Pour solliciter une assistance de dépannage avec Macos-service par
+          téléphone, le client doit suivre ces étapes : Avant de contacter
+          Macos-service, le client doit impérativement effectuer une sauvegarde
+          de toutes ses données personnelles stockées sur son appareil pour
+          pouvoir les récupérer en cas de perte ou de dommage accidentel. Le
+          client doit s'assurer que son appareil n'a pas subi de dommages
+          accidentels avant de demander le dépannage. Il est nécessaire que le
+          client soit le propriétaire d'une connexion Internet fixe et qu'il
+          dispose d'un réseau sans fil Wifi au moment du dépannage. De plus, le
+          client doit posséder le mot de passe nécessaire pour se connecter à ce
+          réseau Wifi lors de l'intervention. Le client doit fournir un numéro
+          de téléphone où il peut être immédiatement contacté. De plus, il doit
+          être disponible pendant toute la durée nécessaire pour le dépannage.
+        </p>
+        <h2 className="pt-8 pb-4 text-2xl font-bold">
+          Pour les achats de services
+        </h2>
+        <p>
+          Le règlement peut être effectué en ligne et par téléphone avec un technicien via une plateforme sécurisée à 100%. Pour confirmer la commande, le client doit cliquer sur le bouton "paiement" pour être redirigé vers la passerelle de paiement. Les options de paiement disponibles incluent Stripe. De plus, afin de finaliser la commande, le client doit explicitement accepter les conditions générales de service.
+        </p>
+        <p>
+          Dans le cadre d’une prestation de dépannage par téléphone, le client peut être amené à fournir certaines informations relatives à l’achat. Ces informations sont les suivantes :
+        </p>
+        <ul className="list-disc pl-8">
+          <li>Le nom et prénom</li>
+          <li>Le numéro de téléphone</li>
+          <li>Le code postal</li>
+          <li>L’adresse de facturation</li>
+        </ul>
+        <p>
+          Le client confirme par téléphone avoir le droit légal d’utiliser toute carte de crédit ou autre mode de paiement en rapport avec un achat et que les informations fournies sont vraies, correctes et complètes.
+        </p>
+        <p>
+          Une fois cette étape franchie, le client accède au module de paiement où il peut choisir son mode de paiement et procéder au règlement lui-même via la plateforme Stripe. Une confirmation de commande est ensuite envoyée au client par e-mail à l'adresse qu'il a fournie lors de la transmission de ses données personnelles.
+        </p>
+        <p>
+          Le suivi de l'avancement de la commande est disponible en contactant le service clientèle. Il est cependant important de souligner que la société n'est pas tenue d'assurer des résultats concernant la réparation de l'équipement ou tout autre problème d'assistance. Néanmoins, Macos-service s'engage à déployer tous les moyens nécessaires pour aider ses clients et leur proposer des solutions adaptées à leurs besoins spécifiques.
+        </p>
+        <p>Confirmation de la commande passée sur le Site
+          Le Client reçoit un email de confirmation valant accusé de réception de la commande.
+          Cet email est adressé à l’adresse de courrier électronique renseignée par le Client lors de la communication de ses données personnelles.
+          Le Client peut suivre sa commande en contactant le service client la prise en charge est immédiate.
+        </p>
+        <h2 className="pt-8 pb-4 text-2xl font-bold">
+          CONDITIONS DE REMBOURSEMENT
+        </h2>
+        <p>
+          Tout client souhaitant initier une demande de remboursement doit suivre le protocole suivant :
+        </p>
+        <ul className="list-disc pl-8">
+          <li>
+            Le client doit veiller à ce que la demande de remboursement soit effectuée dans les dix jours suivant le paiement. Passé ce délai, la demande ne sera pas prise en compte.
+          </li>
+          <li>
+            Envoyez un courriel à support@macos-service.com en précisant les raisons de la demande de remboursement, le nom complet, la date d’achat du service et une copie de la facture.
+          </li>
+          <li>
+            Un accusé de réception concernant cette demande sera renvoyé au client.
+          </li>
+          <li>
+            Les demandes de remboursement sont traitées par nos équipes dans un délai moyen de 72 heures ou moins.
+          </li>
+          <li>
+            Après une réponse positive à la demande de remboursement, la société Macos-service soumet immédiatement les remboursements à la banque du client. En fonction du délai de traitement de la banque, le remboursement peut prendre de 5 à 10 jours ouvrables pour apparaître sur le compte bancaire du client.
+          </li>
+          <li>
+            La société Macos-service se réserve le droit d’accepter ou non cette demande de remboursement.
+          </li>
+          <li>
+            Les frais de remboursement sont entièrement à la charge du client.
+          </li>
+          <li>
+            Toutefois, la société Macos-service veille à ce qu'une étude approfondie et de bonne foi soit effectuée avant chaque retour de demandes.
+          </li>
+        </ul>
 
-        <div className="mt-8 space-y-8 pt-8">
-          <div>
-            <p className="font-semibold">Prix Des Prestations :</p>
-            <p>
-              Le prix de la prestation d&apos;assistance est celui indiqué, le jour
-              de la commande sur le site en euros.
-            </p>
-          </div>
-          <div>
-            <p className="font-semibold">Réinstallation Système :</p>
-            <p>
-              Certains problèmes techniques nécessitent la réinstallation du
-              système Mac OS X. Le service est facturé à partir de 120 euros et
-              comprend la réinstallation de la licence d&apos;origine de
-              l&apos;ordinateur.
-            </p>
-          </div>
-          <div>
-            <p className="font-semibold">Réinstallation Système Niveau 2 :</p>
-            <p>
-              Si plusieurs mises à jour se révèlent nécessaires ou que plusieurs
-              ordinateurs doivent être mis à jour Dans certains cas la
-              réinstallation peut être facturée 149 euros Niveau 2 (Besoin de
-              formater le disque, ancien mac, perte de licence et sauvegarde)
-            </p>
-          </div>
-          <div>
-            <p className="font-semibold">Réinstallation Complète :</p>
-            <p>
-              réinstallation complète de votre Mac sans aucune perte de données
-              avec les paramétrages utilisateurs 149 euro
-            </p>
-          </div>
-        </div>
+        <h2 className="pt-8 pb-4 text-2xl font-bold">
+          Garantie de Macos-Service
+        </h2>
+        <p>
+          Nous tenons à souligner que bien que nous mettions tout en œuvre pour garantir la qualité de nos services, Macos-Service ne peut garantir un résultat spécifique pour les manipulations proposées. En conséquence, la responsabilité de Macos-Service ne pourra être engagée pour les conséquences directes ou indirectes découlant d'un éventuel dysfonctionnement ou non-fonctionnement de l'équipement du client. Cela inclut toute perte de données, non-conformité, incompatibilité, dysfonctionnement ou dégradation, qu'ils soient consécutifs ou non à notre intervention. Nous déclinons également toute responsabilité en cas d'endommagement matériel et/ou de perte totale ou partielle de données informatiques du client, quelle qu'en soit la raison.
+        </p>
+        <p>
+          Nous tenons à préciser que notre service ne comprend pas de réparation physique des appareils électroniques. Nous vous invitons à prendre connaissance de ces conditions avant toute sollicitation de nos services.
+        </p>
+
+        <h2 className="pt-8 pb-4 text-2xl font-bold">
+          Protection des données et de la vie privée
+        </h2>
+        <p>
+          Macos-Service accorde une importance primordiale au respect du droit à la vie privée et veille à ce que le traitement des données personnelles de ses clients et des utilisateurs de son site respecte scrupuleusement la législation applicable en matière de protection de la vie privée.
+        </p>
+        <p>
+          Lors de la visite du site macos-service.com, Macos-Service ne collecte aucune donnée personnelle. Si un utilisateur du site macos-service.com ou un client fournit des données personnelles à Macos-Service, celles-ci sont traitées par Macos-Service dans la mesure nécessaire pour répondre à la demande et, éventuellement, pour l'envoi d'une newsletter. Les données personnelles fournies ne sont en aucun cas utilisées à des fins commerciales.
+        </p>
+        <p>
+          Ces données peuvent être communiquées par Macos-Service à des tiers, notamment le transporteur, dans la seule mesure nécessaire au traitement de la demande.
+        </p>
+        <p>
+          Le client qui a communiqué des données personnelles à Macos-Service bénéficie du droit d'accès, de rectification et de suppression de ses données personnelles, conformément à la législation en vigueur en matière de protection des données personnelles. Pour exercer ce droit d'accès, de rectification et de suppression, il suffit de contacter gratuitement et sans avoir à fournir de justification particulière Macos-Service via l'adresse électronique suivante : support@macos-service.com.
+        </p>
+
+        <h2 className="pt-8 pb-4 text-2xl font-bold">
+          Tarifs Des Prestations
+        </h2>
+        <p>Le prix de la prestation d'assistance est celui indiqué, le jour de la commande en euros.</p>
+        <ul className="list-disc pl-8">
+          <li>Configuration basique Système facturé : 49 €</li>
+          <li>Optimisation et mise à jour : facturé : 120 €</li>
+          <li>Réinstallation Complète : facturé : 149 €</li>
+        </ul>
+        <p>Ces tarifs comprennent divers services tels que le diagnostic du système, le nettoyage du disque dur, la vérification et réparation des registres, l'optimisation de l'index système, la vérification et test du matériel, le formatage du disque dur, l'installation du système, la configuration d'internet, la recherche des mises à jour, la maintenance du système, l'optimisation du système, la mise à jour du système, la configuration de la messagerie Mail, la configuration des services iCloud, et l'éradication de malwares.</p>
+
+
+        <h2 className="pt-8 pb-4 text-2xl font-bold">
+          NOUS CONTACTER
+        </h2>
+        <p>
+          Pour toute demande de renseignements concernant nos conditions d'utilisation ou pour toute autre question, n'hésitez pas à nous contacter par courrier électronique à l'adresse suivante : support@macos-service.com. Nous nous efforcerons de vous répondre dans les plus brefs délais.
+        </p>
+
+
+
+
+
+
+
+
       </section>
     </>
   );
