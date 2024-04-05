@@ -8,8 +8,8 @@ export default function Navbar() {
   
   return (
     <div>
-      <header className=" flex w-full items-center justify-between bg-[#F9F9FA] p-4 ">
-        <div className="flex flex-col items-center justify-center md:w-2/6 ">
+      <header className="flex w-full items-center justify-between bg-[#F9F9FA] p-4 ">
+        <div className="flex flex-col items-center justify-center md:px-20 ">
           <Link href="/" onClick={() => setNavbar(false)}>
             <div className="headerLink pt-4 text-left">
               <p className=" animate-fade-down animate-ease-in-out">Support Certifié </p>
@@ -18,7 +18,7 @@ export default function Navbar() {
           </Link>
         </div>
 
-        <div className="hidden xl:flex  md:w-3/6 md:flex-1 md:justify-center md:gap-4 md:space-x-8">
+        <div className="hidden xl:flex  md:w-3/6 md:flex-1 md:justify-center md:gap-4 md:space-x-6">
           <Link href="/" className="flex flex-col items-center">
             Accueil
           </Link>
@@ -49,6 +49,17 @@ export default function Navbar() {
             à propos de nous
           </Link>
 
+          <Link
+            href="/#contact"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = '/#contact';
+            }}
+          >
+            <p className="flex flex-col items-center">Contact</p>
+          </Link>
+          
+
 
         </div>
         <div className="hidden flex-1 items-center justify-center gap-x-3 md:flex md:w-1/6">
@@ -76,6 +87,8 @@ export default function Navbar() {
           )}
         </div>
       </header>
+
+
       <div
         className={`flex-1 justify-self-center  ${Navbar ? "block md:p-0" : "hidden"
           }`}
@@ -120,6 +133,17 @@ export default function Navbar() {
             >
 
               à propos de nous
+            </Link>
+
+            <Link
+              href="/#contact"
+              onClick={(e) => {
+                e.preventDefault();
+                setNavbar(!Navbar);
+                window.location.href = '/#contact';
+              }}
+            >
+              <p className="flex flex-col items-center">Contact</p>
             </Link>
           </div>
         )}

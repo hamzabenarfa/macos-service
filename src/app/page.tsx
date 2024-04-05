@@ -8,11 +8,11 @@ export default function Home() {
   return (
     <>
       <main className="bg-[#FBFBFB] ">
-       
         <Landing />
         <Support />
+        
+      
         <Shop />
-        {/* <Service /> */}
         <Entreprise />
       </main>
     </>

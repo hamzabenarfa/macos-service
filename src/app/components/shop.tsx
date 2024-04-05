@@ -7,7 +7,7 @@ const Shop = () => {
   const displayedMac = Mac.filter((item) => selectedIds.includes(item.id));
 
   return (
-    <div className="flex flex-col items-center justify-center gap-2 bg-gray-200 p-4">
+    <div className="flex flex-col items-center justify-center gap-2 bg-gray-200 p-4 py-10">
       <h1 className="  text-center text-3xl font-bold" id="produit">
         La Boutique Mac
       </h1>
@@ -16,6 +16,7 @@ const Shop = () => {
         Rejoignez l&apos;univers Apple reconditionné pour une immersion
         innovante à moindre coût !
       </h1>
+      <br />
       <div className="grid gap-2 place-self-center sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
         {displayedMac.map((item) => (
           <CardItem
@@ -27,6 +28,7 @@ const Shop = () => {
           />
         ))}
       </div>
+      <br />
       <Link href="/shops">
         <button
           className="focus:shadow-outline w-32 rounded-xl

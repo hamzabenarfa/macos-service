@@ -45,8 +45,8 @@ export default function Footer() {
                 </a>
                 <small>appel non surtaxé!</small>
               </div>
-              <div className="flex flex-col items-start">
-                <p className="text-lg font-bold">Email</p>
+              <div className="flex flex-col items-start" id="contact">
+                <p className="text-lg font-bold" >Email</p>
                 <p className="text-semibold underline ">
                   <a
                     href="mailto: support@macos-service.com"

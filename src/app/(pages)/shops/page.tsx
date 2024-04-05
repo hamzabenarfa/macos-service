@@ -2,14 +2,13 @@
 
 import CardItem from "@/app/components/card-item";
 import { Mac } from "../../components/_const/data";
-import LandingShops from "./_components/landing";
 import Banner from "./_components/banner";
 import Payment from "./_components/payment";
 const Shop = () => {
   return (
     <div className="flex flex-col items-center justify-center">
 
-    <LandingShops />
+   
       <div className="grid min-h-screen gap-4 px-10  py-4 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
         {Mac.map((item) => (
           <CardItem
