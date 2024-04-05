@@ -1,9 +1,9 @@
 "use client"
 
-import { Armchair, Diamond, MonitorUp, Wifi } from "lucide-react"
+import { Armchair, Diamond, MonitorUp, RotateCcw, Wifi } from "lucide-react"
 import Button from "./Button/Button"
 
-export default function Support() {
+export default function Tarif() {
   return (
     <section className="p-8 bg-[#f7f7f7] space-y-4 " id="tarif">
       <div className="flex flex-col-reverse md:flex-row justify-around">
@@ -72,7 +72,7 @@ export default function Support() {
         <div className="rounded-xl bg-white shadow-lg px-6 py-16 space-y-4 flex flex-col justify-center items-start w-80">
           <div className="flex w-full justify-between">
             <h1 className="font-bold text-xl">Réinstallation Complète </h1>
-            <Diamond />
+            <RotateCcw />
           </div>
           <h1>Ce tarif comprend : </h1>
           <div className="">

@@ -1,7 +1,7 @@
 "use client";
 import Landing from "./components/Landing";
 import Service from "./components/Service";
-import Support from "./components/Support";
+import Tarif from "./components/Tarif";
 import Entreprise from "./components/Entreprise";
 import Shop from "./components/shop";
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <main className="bg-[#FBFBFB] ">
         <Landing />
-        <Support />
+        <Tarif />
         
       
         <Shop />

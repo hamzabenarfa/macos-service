@@ -2,8 +2,8 @@ const ShopBtn = () => {
   return (
     <a
       href="tel:0980803643"
-      className="w-full mt-2 h-10 rounded-xl bg-black 
-      px-4 py-2 text-center text-xs text-white shadow md:text-sm "
+      className="flex items-center justify-center w-full mt-2 h-10 rounded-xl bg-black 
+      px-4 py-2 text-center text-sm text-white shadow md:text-md "
     >
       Acheter
     </a>
