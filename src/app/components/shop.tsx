@@ -31,9 +31,8 @@ const Shop = () => {
       <br />
       <Link href="/shops">
         <button
-          className="focus:shadow-outline w-32 rounded-xl
-        bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 px-6 
-        py-3 text-center text-xs font-semibold text-white shadow hover:bg-gradient-to-tr focus:outline-none md:text-sm"
+          className="focus:shadow-outline w-32 rounded-xl bg-black px-6 
+        py-3 text-center text-xs font-semibold text-white shadow focus:outline-none md:text-sm"
         >
           Voir plus
         </button>
