@@ -1,6 +1,6 @@
 "use client"
 
-import { Armchair, Diamond, MonitorUp, RotateCcw, Wifi } from "lucide-react"
+import {  MonitorUp, RotateCcw, Wifi } from "lucide-react"
 import Button from "./Button/Button"
 
 export default function Tarif() {

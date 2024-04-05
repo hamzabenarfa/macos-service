@@ -1,6 +1,5 @@
 "use client";
 import Landing from "./components/Landing";
-import Service from "./components/Service";
 import Tarif from "./components/Tarif";
 import Entreprise from "./components/Entreprise";
 import Shop from "./components/shop";
