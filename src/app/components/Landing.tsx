@@ -14,9 +14,9 @@ export default function Landing() {
         <h1 className=" text-2xl md:text-5xl lg:text-6xl xl:text-5xl font-bold text-black">
           à distance.
         </h1>
-        <div className="flex flex-col items-start">
-          <h1 className="text-black">On peux vous aider rapidement avec la plupart des problèmes  </h1>
-          <h1 className="text-black"> d&apos;ordinateurs Mac à distance!</h1>
+        <div className="flex flex-col ">
+          <h1 className="text-black text-left">On peux vous aider rapidement avec la plupart des problèmes  </h1>
+          <h1 className="text-black text-left"> d&apos;ordinateurs Mac à distance!</h1>
         </div>
 
         <div>
