@@ -1,6 +1,6 @@
 "use client"
 
-import {  MonitorUp, RotateCcw, Wifi } from "lucide-react"
+import { MonitorUp, RotateCcw, Wifi } from "lucide-react"
 import Button from "./Button/Button"
 
 export default function Tarif() {
@@ -14,8 +14,8 @@ export default function Tarif() {
             <h1 className="text-4xl font-bold mb-1 text-slate-800">
               Découvrez notre assistance en temps réel,
             </h1>
-            <h1 className="text-3xl font-semibold max-w-md text-slate-800">
-              pour résoudre vos problèmes à distance. Avec nos outils de prise en main sécurisés, pas besoin de vous déplacer.
+            <h1 className="text-2xl font-semibold max-w-xl text-slate-800">
+              Nos outils avancés et sécurisés de prise en main à distance nous permettent d'effectuer un diagnostic précis et de résoudre de nombreux problèmes directement, sans que vous ayez à vous déplacer.
             </h1>
           </div>
           <div className=" flex flex-col items-center justify-center">
@@ -62,11 +62,11 @@ export default function Tarif() {
             <h3>-Nettoyage de votre disque dur</h3>
             <h3>-Vérification et réparation des registres </h3>
             <h3>-Optimisation Index système </h3>
-            <h3>-Vérification et test Hardware 
-             Prix:  </h3>
+            <h3>-Vérification et test Hardware
+              Prix:  </h3>
             <p className=" text-center font-bold">49 €</p>
           </div>
-        
+
         </div>
 
         <div className="rounded-xl bg-white shadow-lg px-6 py-16 space-y-4 flex flex-col justify-center items-start w-80">
@@ -81,8 +81,8 @@ export default function Tarif() {
             <h3>-Optimisation de votre système  </h3>
             <h3>-Mise à jour de votre système  </h3>
             <h3>-Configuration messagerie Mail</h3>
-            <h3>-Configuration de vos services  
-             Prix:   </h3>
+            <h3>-Configuration de vos services
+              Prix:   </h3>
             <p className=" text-center font-bold">149 €</p>
           </div>
         </div>

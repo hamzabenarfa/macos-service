@@ -4,11 +4,11 @@ import Button from "./Button/Button";
 
 function Entreprise() {
   return (
-    <section className="flex min-h-screen flex-col items-center space-y-8">
-      <span className=" center bg-gradient-to-r from-yellow-400 to-purple-600 bg-clip-text pt-20 text-center text-4xl font-medium text-transparent">
+    <section className="flex min-h-screen flex-col items-center space-y-8 bg-[#f7f7f7]">
+      <span className=" text-center text-black pt-20  text-4xl font-bold">
         On Remet Votre Mac à Zéro Comme Neuf
       </span>
-      <img src="/appless.jpg" alt="et" width={1960} height={1102} />
+      <img src="/mac.png" alt="et" className="w-full" />
       <p className="text-bold px-4 pt-8 text-justify md:px-60 md:text-xl">
         Offrez une seconde jeunesse à votre Mac et évitez de le remplacer. Nous
         possédons les ressources et les compétences nécessaires pour installer,

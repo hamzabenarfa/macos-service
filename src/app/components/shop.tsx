@@ -7,7 +7,7 @@ const Shop = () => {
   const displayedMac = Mac.filter((item) => selectedIds.includes(item.id));
 
   return (
-    <div className="flex flex-col items-center justify-center gap-2 bg-gray-200 p-4 py-10">
+    <div className="flex flex-col items-center justify-center gap-2 bg-[#f7f7f7] p-4 py-10">
       <h1 className="  text-center text-3xl font-bold" id="produit">
         La Boutique Mac
       </h1>

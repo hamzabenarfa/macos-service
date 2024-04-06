@@ -12,7 +12,7 @@ export default function Navbar() {
         <div className="flex flex-col items-center justify-center md:px-20 ">
           <Link href="/" onClick={() => setNavbar(false)}>
             <div className="headerLink pt-4 text-left">
-              <p className=" animate-fade-down animate-ease-in-out">Support Certifié </p>
+              <p className=" animate-fade-down animate-ease-in-out">Soutien Certifié </p>
               <p>Professionnel</p>
             </div>
           </Link>
@@ -50,11 +50,8 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="/#contact"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href = '/#contact';
-            }}
+            href="/contact"
+           
           >
             <p className="flex flex-col items-center">Contact</p>
           </Link>
@@ -136,12 +133,8 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href="/#contact"
-              onClick={(e) => {
-                e.preventDefault();
-                setNavbar(!Navbar);
-                window.location.href = '/#contact';
-              }}
+              href="/contact"
+             
             >
               <p className="flex flex-col items-center">Contact</p>
             </Link>

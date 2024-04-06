@@ -6,7 +6,7 @@ export default function FixedBar() {
         <p className="text-center text-md font-bold capitalize ">
           <a
             href="tel:0980803643"
-            className="bg-gradient-to-r from-pink-500 to-blue-500 bg-clip-text text-transparent"
+            className="Text-black"
           >
             Appelez-nous  09 80 80 36 43
           </a>

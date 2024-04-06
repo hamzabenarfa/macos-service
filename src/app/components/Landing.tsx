@@ -6,7 +6,7 @@ export default function Landing() {
 
 
   return (
-    <section className="flex  bg-gray-800 bg-[url('/bg.gif')] bg-cover bg-center text-white text-center py-40 relative">
+    <section className="flex  bg-[#f7f7f7] bg-[url('/bg.png')] bg-cover bg-center text-white text-center py-40 relative">
       <div className="relative pl-8 z-10 flex flex-col items-start justify-start gap-4 ">
         <h1 className=" text-2xl md:text-5xl lg:text-6xl xl:text-5xl font-bold text-black">
           Support informatique

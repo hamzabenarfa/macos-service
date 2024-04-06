@@ -3,7 +3,6 @@
 import CardItem from "@/app/components/card-item";
 import { Mac } from "../../components/_const/data";
 import Banner from "./_components/banner";
-import Payment from "./_components/payment";
 const Shop = () => {
   return (
     <div className="flex flex-col items-center justify-center">
@@ -27,7 +26,6 @@ const Shop = () => {
       </p>
 
       <Banner />
-      <Payment />
     </div>
   );
 };
