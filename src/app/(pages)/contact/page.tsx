@@ -3,7 +3,7 @@
 const Contact = () => {
     return ( 
         <div className="flex flex-col  md:flex-row items-center justify-center min-h-screen py-2 bg-gray-50">
-          <div className="w-full mb-8 max-w-3xl ">
+          <div className="w-full mb-8 max-w-3xl p-2 ">
           <form action="mailto:hamzabenarfa4@gmail.com" method="post" enctype="text/plain">
 
               <input type="hidden" name="remember" value="true" />
@@ -14,7 +14,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <label htmlFor="tel" className="sr-only">Numero telephone</label>
-                  <input id="tel" name="tel" type="tel" autoComplete="tel" required className="appearance-none rounded-none relative block w-full px-4 py-4 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-lg" placeholder="Numero telephone " />
+                  <input id="tel" name="tel" type="tel" autoComplete="tel" required className="appearance-none rounded-none relative block w-full px-4 py-4 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-lg" placeholder="Telephone " />
                 </div>
                 <div>
                   <label htmlFor="email" className="sr-only">Email</label>
@@ -26,8 +26,8 @@ const Contact = () => {
                 </div>
               </div>
               <div>
-                <button type="submit" className="group mt-2 relative w-full flex justify-center py-4 px-4 border border-transparent text-lg font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                  Send
+                <button type="submit" className="group mt-2 relative w-full flex justify-center py-4 px-4 border border-transparent text-lg font-medium rounded-md text-white bg-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                  Envoyer
                 </button>
               </div>
             </form>
