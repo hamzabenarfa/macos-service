@@ -22,7 +22,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <label htmlFor="message" className="sr-only">Message</label>
-                  <textarea id="message" name="message" rows="5" required className="appearance-none rounded-none relative block w-full px-4 py-4 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-lg" placeholder="Message"></textarea>
+                  <textarea id="message" name="message"  required className="appearance-none rounded-none relative block w-full px-4 py-12 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-lg" placeholder="Message"></textarea>
                 </div>
               </div>
               <div>
