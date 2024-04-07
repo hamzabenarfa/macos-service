@@ -63,7 +63,7 @@ export default function Footer() {
             <small className="p-2 text-center  text-xs font-light">
               Macos-service est une société privée à responsabilité limitée qui n&apos;a aucun lien, de quelque nature que ce soit, avec la société Apple.
               Macos-service n&apos;est ni un réparateur, ni un revendeur agréé par la société Apple. Plus généralement, Macos-service n&apos;exerce aucune activité qui aurait fait l&apos;objet d&apos;une approbation ou d&apos;une autorisation quelconque de la société Apple. Les droits de propriété intellectuelle portant sur des produits de la marque Apple sont la propriété exclusive de la société Apple.
-              iPhone, iPod, iPad, Mac, MacBook, MacBook Pro, MacBook Air, iMac, Mac Mini, Apple Watch sont des marques déposées d'Apple Inc.
+              iPhone, iPod, iPad, Mac, MacBook, MacBook Pro, MacBook Air, iMac, Mac Mini, Apple Watch sont des marques déposées d&apos;Apple Inc.
 
             </small>
             <div>

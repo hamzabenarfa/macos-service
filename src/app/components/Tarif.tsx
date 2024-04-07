@@ -15,7 +15,7 @@ export default function Tarif() {
               Découvrez notre assistance en temps réel,
             </h1>
             <h1 className="text-2xl font-semibold max-w-xl text-slate-800">
-              Nos outils avancés et sécurisés de prise en main à distance nous permettent d'effectuer un diagnostic précis et de résoudre de nombreux problèmes directement, sans que vous ayez à vous déplacer.
+              Nos outils avancés et sécurisés de prise en main à distance nous permettent d&apos;effectuer un diagnostic précis et de résoudre de nombreux problèmes directement, sans que vous ayez à vous déplacer.
             </h1>
           </div>
           <div className=" flex flex-col items-center justify-center" >
