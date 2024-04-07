@@ -4,7 +4,7 @@ const Contact = () => {
     return ( 
         <div className="flex flex-col  md:flex-row items-center justify-center min-h-screen py-2 bg-gray-50">
           <div className="w-full mb-8 max-w-3xl p-2 ">
-          <form action="mailto:hamzabenarfa4@gmail.com" method="post" enctype="text/plain">
+          <form action="mailto:hamzabenarfa4@gmail.com" method="post" >
 
               <input type="hidden" name="remember" value="true" />
               <div className="rounded-md shadow-sm -space-y-px">
