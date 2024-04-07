@@ -18,12 +18,13 @@ export default function Tarif() {
               Nos outils avancés et sécurisés de prise en main à distance nous permettent d&apos;effectuer un diagnostic précis et de résoudre de nombreux problèmes directement, sans que vous ayez à vous déplacer.
             </h1>
           </div>
+
           <div className=" flex flex-col items-center justify-center" >
             <div className="flex flex-col md:flex-row gap-2">
               <Button title="09 80 80 36 43" />
-              <a href="https://macos-service.screenconnect.com/" target="_blank" className="flex items-center justify-center bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-500 hover:to-blue-600 text-white font-bold py-2 px-4 rounded-full shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
+              {/* <a href="https://macos-service.screenconnect.com/" target="_blank" className="flex items-center justify-center bg-gradient-to-r from-green-400 to-blue-500 hover:from-green-500 hover:to-blue-600 text-white font-bold py-2 px-4 rounded-full shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1">
                 Connection à distance
-              </a>
+              </a> */}
             </div>
             <small className="block mt-2">Appel gratuit non surtaxé</small>
           </div>
