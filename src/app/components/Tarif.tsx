@@ -5,17 +5,29 @@ import Button from "./Button/Button"
 
 export default function Tarif() {
   return (
-    <section className="p-8 bg-[#f7f7f7] space-y-4 " >
+    <section className="p-8 bg-[#f7f7f7] space-y-4  " >
       <div className="flex flex-col-reverse md:flex-row justify-around">
 
         <div className="space-y-4 md:space-y-20 flex items-start justify-center flex-col">
           <div>
 
-            <h1 className="text-4xl font-bold mb-1 text-slate-800">
+            <div id="tarif" />
+            <h1 className="text-4xl font-bold mb-2 text-slate-800">
               Découvrez notre assistance en temps réel,
             </h1>
+
+
             <h1 className="text-2xl font-semibold max-w-xl text-slate-800">
-              Nos outils avancés et sécurisés de prise en main à distance nous permettent d&apos;effectuer un diagnostic précis et de résoudre de nombreux problèmes directement, sans que vous ayez à vous déplacer.
+              Votre Mac est-il verrouillé ?
+            </h1>
+            <h1 className="text-2xl font-semibold max-w-xl text-slate-800">
+              Utilisez-vous une version obsolète de Mac ?
+            </h1>
+            <h1 className="text-2xl font-semibold max-w-xl text-slate-800">
+              Impossible de faire les mises à jour ?
+            </h1>
+            <h1 className="text-2xl font-semibold max-w-2xl text-slate-800">
+              Obtenez l'aide d'un Expert sans avoir à vous déplacer !
             </h1>
           </div>
 
@@ -33,22 +45,21 @@ export default function Tarif() {
         </div>
         <img src="tarif.jpg" alt="" className="md:w-2/5" />
       </div>
-
-      <div className="w-full flex flex-col md:flex-row items-center justify-center gap-4 " id="tarif">
+     
+      <div className="w-full flex flex-col md:flex-row items-center justify-around gap-4 ">
         <div className="rounded-xl bg-white shadow-lg px-6 py-16 space-y-4 flex flex-col justify-center items-start  w-80">
           <div className="flex w-full justify-between">
             <h1 className="font-bold text-xl">Optimisation  </h1>
             <MonitorUp />
           </div>
-          <h1>Ce tarif comprend : </h1>
+
           <br />
           <div className="">
             <h3>-Formatage de votre disque dur </h3>
             <h3>-Création de votre partition</h3>
             <h3>-Installation de votre Système </h3>
             <h3>-Configuration de votre Internet</h3>
-            <h3>-Recherche des mises à jour Prix: </h3>
-            <p className=" text-center font-bold">120 €</p>
+            <h3>-Recherche des mises à jour </h3>
           </div>
         </div>
 
@@ -57,15 +68,14 @@ export default function Tarif() {
             <h1 className="font-bold text-xl">Configuration basique</h1>
             <Wifi />
           </div>
-          <h1>Ce tarif comprend : </h1>
+
           <div className="">
             <h3>-Diagnostique du système  </h3>
             <h3>-Nettoyage de votre disque dur</h3>
             <h3>-Vérification et réparation des registres </h3>
             <h3>-Optimisation Index système </h3>
             <h3>-Vérification et test Hardware
-              Prix:  </h3>
-            <p className=" text-center font-bold">49 €</p>
+            </h3>
           </div>
 
         </div>
@@ -75,20 +85,23 @@ export default function Tarif() {
             <h1 className="font-bold text-xl">Réinstallation Complète </h1>
             <RotateCcw />
           </div>
-          <h1>Ce tarif comprend : </h1>
-          <div className="">
+          <div className=""  >
             <h3>-Installation, configuration logicielle  </h3>
             <h3>-Maintenance du système </h3>
             <h3>-Optimisation de votre système  </h3>
             <h3>-Mise à jour de votre système  </h3>
             <h3>-Configuration messagerie Mail</h3>
             <h3>-Configuration de vos services
-              Prix:   </h3>
-            <p className=" text-center font-bold">149 €</p>
+            </h3>
           </div>
         </div>
-      </div>
 
+        
+      </div>
+      <div className="mx-auto pt-20 text-2xl text-center font-bold ">
+        <p>Pour tous vos soucis Mac, notre équipe experte offre une assistance rapide et efficace, </p>
+        <p>de l'installation à la résolution des problèmes de blocage et de lenteur</p>
+      </div>
     </section>
   )
 }

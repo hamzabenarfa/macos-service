@@ -22,7 +22,7 @@ export default function Navbar() {
           <Link href="/" className="flex flex-col items-center">
             Accueil
           </Link>
-
+{/* 
           <Link
             href="/#produit"
             onClick={(e) => {
@@ -31,7 +31,7 @@ export default function Navbar() {
             }}
           >
             <p className="flex flex-col items-center">Produit</p>
-          </Link>
+          </Link> */}
 
 
           <Link
@@ -41,7 +41,7 @@ export default function Navbar() {
               window.location.href = '/#tarif';
             }}
           >
-            <p className="flex flex-col items-center">Tarif</p>
+            <p className="flex flex-col items-center">Service</p>
           </Link>
 
           <Link href="/about" className="flex flex-col items-center capitalize">

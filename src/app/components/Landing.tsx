@@ -6,14 +6,13 @@ export default function Landing() {
 
 
   return (
-    <section className="flex  bg-[#f7f7f7] bg-[url('/bg.png')] bg-cover bg-center text-white text-center py-40 relative">
+    <section className="flex  bg-[#f7f7f7] bg-[url('/macc.jpeg')] bg-cover bg-center text-white text-center py-40 relative">
       <div className="relative pl-8 md:pl-16 z-10 flex flex-col items-start justify-start gap-4 ">
         <h1 className=" text-2xl md:text-5xl lg:text-6xl xl:text-5xl font-bold text-black">
-          Support informatique
+        Un Problème Sur votre Mac ?
+
         </h1>
-        <h1 className=" text-2xl md:text-5xl lg:text-6xl xl:text-5xl font-bold text-black">
-          à distance.
-        </h1>
+       
         <div className="flex flex-col ">
           <h1 className="text-black text-left">On peux vous aider rapidement avec la plupart des problèmes  </h1>
           <h1 className="text-black text-left"> d&apos;ordinateurs Mac à distance!</h1>
