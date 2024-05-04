@@ -27,7 +27,7 @@ export default function Tarif() {
               Impossible de faire les mises à jour ?
             </h1>
             <h1 className="text-2xl font-semibold max-w-2xl text-slate-800">
-              Obtenez l'aide d'un Expert sans avoir à vous déplacer !
+              Obtenez l&apos;aide d&apos;un Expert sans avoir à vous déplacer !
             </h1>
           </div>
 
@@ -100,7 +100,7 @@ export default function Tarif() {
       </div>
       <div className="mx-auto pt-20 text-2xl text-center font-bold ">
         <p>Pour tous vos soucis Mac, notre équipe experte offre une assistance rapide et efficace, </p>
-        <p>de l'installation à la résolution des problèmes de blocage et de lenteur</p>
+        <p>de l&apos;installation à la résolution des problèmes de blocage et de lenteur</p>
       </div>
     </section>
   )
