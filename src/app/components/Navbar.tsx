@@ -46,7 +46,7 @@ export default function Navbar() {
 
           <Link href="/about" className="flex flex-col items-center capitalize">
 
-            à propos de nous
+            Développement et intégartion
           </Link>
 
           <Link

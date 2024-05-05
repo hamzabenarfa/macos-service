@@ -19,7 +19,7 @@ export default function Footer() {
 
 
             </div>
-
+{/* 
             <div className="flex w-full flex-col justify-center space-y-2 p-4">
               <div className="flex flex-col items-start">
                 <p className="text-lg font-bold">Informations légales</p>
@@ -36,7 +36,7 @@ export default function Footer() {
               <div className="flex flex-col items-start">
 
               </div>
-            </div>
+            </div> */}
 
             <div className="flex w-full flex-col justify-center space-y-2 p-4">
               <div className="flex flex-col items-start">

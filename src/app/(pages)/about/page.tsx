@@ -1,40 +1,79 @@
+import Button from "@/app/components/Button/Button";
+import { MonitorUp } from "lucide-react";
+
 export default function page() {
   return (
     <>
-      <section className="bg-[#F5F5F7] p-6 px-8  md:px-24">
-        <h1 className="pb-4 text-center text-3xl font-bold ">MACOS-SERVICE</h1>
+      <section className=" min-h-screen">
 
-        <div className="md:mx-14 md:p-1 space-y-4 pt-8">
-          <p>
-          Notre mission : combattre l&apos;obsolescence programmée et prolonger la vie de vos ordinateurs Mac.
-          </p>
-          <p>
-          Découvrez Macos-Service : votre allié contre l&apos;obsolescence programmée, dédié à prolonger la vie de vos précieux ordinateurs Mac.
-          </p>
-          <p>
-          Rejoignez une équipe d&apos;experts Apple dévoués à résoudre vos problèmes avec rapidité et efficacité.
-          </p>
-          <p>
-          Nous comprenons l&apos;importance d&apos;offrir des solutions rapides et économiques à nos clients. Mais pour nous, la véritable valeur réside dans notre engagement à vous informer honnêtement et à vous fournir une assistance complète.
-          </p>
-          <p>
-          Nous sommes déterminés à vous offrir des options de réparation qui répondent à vos besoins :
-          </p>
-          <p className="font-semibold">
-          * Service rapide <br />
-          * Efficacité garantie <br />
-          * Un excellent rapport qualité-prix
+        <section className="flex  bg-[#f7f7f7] bg-[url('/hero.jpeg')] bg-cover bg-center text-white text-center py-40 relative">
+          <div className="relative pl-8 md:pl-16 z-10 flex flex-col items-start justify-start gap-4 ">
 
-          </p>
-          <p>
-          Chez Macos-Service, la transparence est notre credo. Nous croyons en un monde où les consommateurs sont accueillis avec confiance, bien informés et prêts à prendre des décisions éclairées.
-          </p>
-          <p>
-          Faites-nous part de vos priorités et laissez-nous vous montrer ce que signifie un service client de qualité supérieure.
+            <h1 className=" text-2xl md:text-5xl lg:text-6xl xl:text-5xl font-bold text-left text-black">
+              Des solutions digitales sur mesure <br /> pour booster votre réussite
 
-          </p>
-          
-          
+
+            </h1>
+            <div>
+
+              <Button title="09 80 80 36 43" />
+              <small className="block mt-2 text-black">Appel gratuit non surtaxé</small>
+            </div>
+          </div>
+
+        </section>
+        <div className="p-4 flex items-center justify-center flex-col md:flex-row gap-4 md:gap-20">
+          <div className="rounded-xl bg-white shadow-lg px-6 py-16 space-y-4 flex flex-col justify-center items-start  w-80">
+            <div className="flex w-full justify-between">
+              <h1 className="font-bold text-xl">SITE CORPORATE  </h1>
+              
+              <MonitorUp />
+            </div>
+        
+            <br />
+            <div className="">
+              <p>Site vitrine, site corporate B2C  <br />
+                / B2B, site événementiel. <br />
+
+                Accompagnement de la stratégie digitale du design à l’UX/UI ainsi qu’à la création technique : WordPress, Symfony, React, Angular, Ruby on Rails.</p>
+
+            </div>
+          </div>
+          <div className="rounded-xl bg-white shadow-lg px-6 py-16 space-y-4 flex flex-col justify-center items-start  w-80">
+            <div className="flex w-full justify-between">
+              <h1 className="font-bold text-xl">CRÉATION D’OUTILS SUR MESURE  </h1>
+              <MonitorUp />
+            </div>
+
+            <br />
+            <div className="">
+              <p>Extranet/Intranet, support digital pour les équipes de vente,<br />
+                portail sur mesure avec fonctionnalités avancées et <br /> adaptées au besoin de vos équipes
+              </p>
+            <br />
+            </div>
+          </div>
+
+        </div>
+
+        <div className="flex items-center justify-around flex-col-reverse md:flex-row p-20 gap-8">
+          <h1 className="text-xl tracking-wide">
+            Développement web: Sites corporate et vitrine, sites e-commerce performants, extranet et outils métiers sur mesure, nous concevons des solutions digitales qui répondent aux exigences les plus pointues.
+          </h1>
+          <img src="dev1.jpeg" alt="" className="w-80" />
+        </div>
+        <div className="flex items-center justify-around flex-col md:flex-row  p-20 gap-8">
+          <img src="dev2.jpeg" alt="" className="w-80" />
+          <h1 className="text-xl tracking-wide">
+            Conseil en stratégie digitale et communication: Nos experts vous accompagnent dans l&apos;élaboration d&apos;une stratégie digitale cohérente et efficace, en parfaite adéquation avec vos objectifs de communication et de marketing.
+          </h1>
+        </div>
+
+        <div className="p-20">
+          <h1 className="text-2xl text-center font-bold">
+            Contactez-nous dès aujourd&apos;hui pour discuter de vos besoins et découvrir comment nos solutions digitales peuvent vous aider à atteindre vos objectifs.
+
+          </h1>
         </div>
       </section>
     </>
