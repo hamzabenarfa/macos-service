@@ -20,7 +20,7 @@ export default function Landing() {
 
         <div>
 
-          <Button title="09 80 80 36 43" />
+          <Button title="09 70 70 82 21" />
           <small className="block mt-2 text-black">Appel gratuit non surtaxé</small>
         </div>
       </div>

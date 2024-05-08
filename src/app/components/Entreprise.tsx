@@ -21,7 +21,7 @@ function Entreprise() {
         données avant de remettre votre système à zéro.
       </p>
       <div className="pt-5">
-        <Button title="09 80 80 36 43" />
+        <Button title="09 70 70 82 21" />
       </div>
     </section>
   );

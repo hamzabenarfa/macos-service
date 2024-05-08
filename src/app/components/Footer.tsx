@@ -40,7 +40,7 @@ export default function Footer() {
 
             <div className="flex w-full flex-col justify-center space-y-2 p-4">
               <div className="flex flex-col items-start">
-                <a href="tel:0980803643" className="hover:underline">
+                <a href="tel:0970708221" className="hover:underline">
                   <span className="text-lg font-bold">Service client</span> : 09 80 80 36 43
                 </a>
                 <small>appel non surtaxé!</small>

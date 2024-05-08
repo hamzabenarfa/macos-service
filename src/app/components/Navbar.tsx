@@ -22,16 +22,6 @@ export default function Navbar() {
           <Link href="/" className="flex flex-col items-center">
             Accueil
           </Link>
-{/* 
-          <Link
-            href="/#produit"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href = '/#produit';
-            }}
-          >
-            <p className="flex flex-col items-center">Produit</p>
-          </Link> */}
 
 
           <Link
@@ -44,7 +34,7 @@ export default function Navbar() {
             <p className="flex flex-col items-center">Service</p>
           </Link>
 
-          <Link href="/about" className="flex flex-col items-center capitalize">
+          <Link href="/developpement-integartion" className="flex flex-col items-center capitalize">
 
             Développement et intégartion
           </Link>
@@ -55,8 +45,7 @@ export default function Navbar() {
           >
             <p className="flex flex-col items-center">Contact</p>
           </Link>
-          
-
+        
 
         </div>
         <div className="hidden flex-1 items-center justify-center gap-x-3 md:flex md:w-1/6">
