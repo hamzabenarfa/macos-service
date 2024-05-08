@@ -2,7 +2,6 @@
 import Landing from "./components/Landing";
 import Tarif from "./components/Tarif";
 import Entreprise from "./components/Entreprise";
-import CookieConsent from "./components/CookieConsent";
 export default function Home() {
   return (
     <>
@@ -10,7 +9,6 @@ export default function Home() {
         <Landing />
         <Tarif />
         <Entreprise />
-        <CookieConsent />
       </main>
     </>
   );

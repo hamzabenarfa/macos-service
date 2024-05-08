@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import FixedBar from "./components/FixedBar";
+import CookieConsent from "./components/CookieConsent";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {  
@@ -27,6 +29,8 @@ export default function RootLayout({
         {children}
         <FixedBar />
         <Footer />
+        <CookieConsent />
+
       </body>
     </html>
   );
