@@ -49,7 +49,7 @@ export default function Navbar() {
 
         </div>
         <div className="hidden flex-1 items-center justify-center gap-x-3 md:flex md:w-1/6">
-          <Button title="09 80 80 36 43" />
+          <Button title="09 70 70 82 21" />
         </div>
         <div className="pr-2 md:hidden">
           {Navbar ? (

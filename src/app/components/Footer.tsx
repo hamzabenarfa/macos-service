@@ -41,7 +41,7 @@ export default function Footer() {
             <div className="flex w-full flex-col justify-center space-y-2 p-4">
               <div className="flex flex-col items-start">
                 <a href="tel:0970708221" className="hover:underline">
-                  <span className="text-lg font-bold">Service client</span> : 09 80 80 36 43
+                  <span className="text-lg font-bold">Service client</span> : 09 70 70 82 21
                 </a>
                 <small>appel non surtaxé!</small>
               </div>
@@ -61,13 +61,14 @@ export default function Footer() {
 
           <div className="flex flex-col items-center justify-center">
             <small className="p-2 text-center  text-xs font-light">
-              Macos-service est une société privée à responsabilité limitée qui n&apos;a aucun lien, de quelque nature que ce soit, avec la société Apple.
-              Macos-service n&apos;est ni un réparateur, ni un revendeur agréé par la société Apple. Plus généralement, Macos-service n&apos;exerce aucune activité qui aurait fait l&apos;objet d&apos;une approbation ou d&apos;une autorisation quelconque de la société Apple. Les droits de propriété intellectuelle portant sur des produits de la marque Apple sont la propriété exclusive de la société Apple.
+              Mactec-service est une société privée à responsabilité limitée qui n&apos;a aucun lien, de quelque nature que ce soit, avec la société Apple.
+              Mactec-service n&apos;est ni un réparateur, ni un revendeur agréé par la société Apple. Plus généralement, Macos-service n&apos;exerce aucune activité qui aurait fait l&apos;objet d&apos;une approbation ou d&apos;une autorisation quelconque de la société Apple. 
+              Les droits de propriété intellectuelle portant sur des produits de la marque Apple sont la propriété exclusive de la société Apple.
               iPhone, iPod, iPad, Mac, MacBook, MacBook Pro, MacBook Air, iMac, Mac Mini, Apple Watch sont des marques déposées d&apos;Apple Inc.
 
             </small>
             <div>
-              <small>Copyright Macos-service™ 2023</small>
+              <small>Copyright Mactec-service™ 2024</small>
               <small className="pl-4 hover:underline  ">
                 <Link href="/cgv">C G V</Link>
               </small>
