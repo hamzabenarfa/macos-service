@@ -49,10 +49,10 @@ export default function Footer() {
                 <p className="text-lg font-bold" >Email</p>
                 <p className="text-semibold underline ">
                   <a
-                    href="mailto: support@macos-service.com"
+                    href="mailto: contact@mactec-support.fr"
                     className="mr-4 hover:underline md:mr-6"
                   >
-                    support@macos-service.com
+                    contact@mactec-support.fr
                   </a>
                 </p>
               </div>
@@ -61,14 +61,14 @@ export default function Footer() {
 
           <div className="flex flex-col items-center justify-center">
             <small className="p-2 text-center  text-xs font-light">
-              Mactec-service est une société privée à responsabilité limitée qui n&apos;a aucun lien, de quelque nature que ce soit, avec la société Apple.
-              Mactec-service n&apos;est ni un réparateur, ni un revendeur agréé par la société Apple. Plus généralement, Macos-service n&apos;exerce aucune activité qui aurait fait l&apos;objet d&apos;une approbation ou d&apos;une autorisation quelconque de la société Apple. 
+              Mactec-support est une société privée à responsabilité limitée qui n&apos;a aucun lien, de quelque nature que ce soit, avec la société Apple.
+              Mactec-support n&apos;est ni un réparateur, ni un revendeur agréé par la société Apple. Plus généralement, Mactec-support n&apos;exerce aucune activité qui aurait fait l&apos;objet d&apos;une approbation ou d&apos;une autorisation quelconque de la société Apple. 
               Les droits de propriété intellectuelle portant sur des produits de la marque Apple sont la propriété exclusive de la société Apple.
               iPhone, iPod, iPad, Mac, MacBook, MacBook Pro, MacBook Air, iMac, Mac Mini, Apple Watch sont des marques déposées d&apos;Apple Inc.
 
             </small>
             <div>
-              <small>Copyright Mactec-service™ 2024</small>
+              <small>Copyright Mactec-support 2024</small>
               <small className="pl-4 hover:underline  ">
                 <Link href="/cgv">C G V</Link>
               </small>

@@ -8,8 +8,8 @@ import CookieConsent from "./components/CookieConsent";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {  
-  title: "mactec-service",
-  description: "Bienvenue sur mactec-service",
+  title: "mactec-support",
+  description: "Bienvenue sur mactec-support",
 };
 
 export default function RootLayout({

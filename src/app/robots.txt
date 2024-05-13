@@ -1,0 +1,4 @@
+# robots.txt generated for https://www.mactec-support.fr/
+User-agent: *
+
+Sitemap: https://www.mactec-support.fr/sitemap.xml

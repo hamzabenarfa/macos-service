@@ -1,137 +1,72 @@
-"use client";
-import Link from "next/link";
+"use client"
 
+import Link from "next/link";
 import { useState } from "react";
 import Button from "./Button/Button";
+
+const links = [
+  { href: "/", text: "Accueil" },
+  { href: "/#service", text: "Service" },
+  { href: "/developpement-integration", text: "Développement et Intégration" },
+  { href: "/contact", text: "Contact" }
+];
+
 export default function Navbar() {
-  const [Navbar, setNavbar] = useState(false);
-  
+  const [navbarOpen, setNavbarOpen] = useState(false);
+
+  const toggleNavbar = () => {
+    setNavbarOpen(!navbarOpen);
+  };
+
   return (
     <div>
-      <header className="flex w-full items-center justify-between bg-[#F9F9FA] p-4 ">
-        <div className="flex flex-col items-center justify-center md:px-20 ">
-          <Link href="/" onClick={() => setNavbar(false)}>
+      <header className="flex w-full items-center justify-between border-b p-4">
+        <div className="flex flex-col items-center justify-center pl-4 md:px-12">
+          <Link href="/" onClick={() => setNavbarOpen(false)}>
             <div className="headerLink pt-4 text-left">
-              <p className=" animate-fade-down animate-ease-in-out">Soutien Certifié </p>
+              <p className="animate-fade-down animate-ease-in-out">Soutien Certifié</p>
               <p>Professionnel</p>
             </div>
           </Link>
         </div>
 
-        <div className="hidden xl:flex  md:w-3/6 md:flex-1 md:justify-center md:gap-4 md:space-x-6">
-          <Link href="/" className="flex flex-col items-center">
-            Accueil
-          </Link>
-
-
-          <Link
-            href="/#tarif"
-            onClick={(e) => {
-              e.preventDefault();
-              window.location.href = '/#tarif';
-            }}
-          >
-            <p className="flex flex-col items-center">Service</p>
-          </Link>
-
-          <Link href="/developpement-integartion" className="flex flex-col items-center capitalize">
-
-            Développement et intégartion
-          </Link>
-
-          <Link
-            href="/contact"
-           
-          >
-            <p className="flex flex-col items-center">Contact</p>
-          </Link>
-        
-
+        <div className="md:flex md:w-3/6 md:flex-1 md:justify-center md:gap-4 md:space-x-4 hidden">
+          {links.map((link, index) => (
+            <Link href={link.href} key={index}>
+              <p className="navLink">{link.text}</p>
+            </Link>
+          ))}
         </div>
-        <div className="hidden flex-1 items-center justify-center gap-x-3 md:flex md:w-1/6">
+
+        <div className="flex items-center justify-center lg:hidden">
           <Button title="09 70 70 82 21" />
         </div>
+
         <div className="pr-2 md:hidden">
-          {Navbar ? (
+          <button
+            onClick={toggleNavbar}
+            className="focus:outline-none"
+          >
             <img
-              src="/close.svg"
+              src={navbarOpen ? "/svg/close.svg" : "/svg/menu.svg"}
               width={40}
               height={40}
-              alt="Picture of the menu logo"
-              onClick={() => setNavbar(!Navbar)}
+              alt="Menu Logo"
               className="hover:cursor-pointer"
             />
-          ) : (
-            <img
-              src="/menu.svg"
-              width={40}
-              height={40}
-              alt="Picture of the menu logo"
-              onClick={() => setNavbar(!Navbar)}
-              className="hover:cursor-pointer"
-            />
-          )}
+          </button>
         </div>
       </header>
 
-
-      <div
-        className={`flex-1 justify-self-center  ${Navbar ? "block md:p-0" : "hidden"
-          }`}
-      >
-        {Navbar && (
-          <div className="flex-col justify-center bg-[#F9F9FA]">
-            <Link
-              href="/"
-              className="flex flex-col items-center"
-              onClick={() => setNavbar(!Navbar)}
-            >
-
-              <p>Accueil</p>
+      <div className={`lg:hidden ${navbarOpen ? "block" : "hidden"}`}>
+        <div className="bg-[#F9F9FA] flex flex-col items-center justify-center gap-1 p-2">
+          {links.map((link, index) => (
+            <Link href={link.href} key={index} onClick={toggleNavbar} >
+              <p className="navLink">{link.text}</p>
             </Link>
-
-            <Link
-              href="/#produit"
-              onClick={(e) => {
-                e.preventDefault();
-                setNavbar(!Navbar);
-                window.location.href = '/#produit';
-              }}
-            >
-              <p className="flex flex-col items-center">Produit</p>
-            </Link>
-
-            <Link
-              href="/#tarif"
-              onClick={(e) => {
-                e.preventDefault();
-                setNavbar(!Navbar);
-                window.location.href = '/#tarif';
-              }}
-            >
-              <p className="flex flex-col items-center">Tarif</p>
-            </Link>
-
-            <Link
-              href="/about"
-              className="flex flex-col items-center capitalize"
-              onClick={() => setNavbar(!Navbar)}
-            >
-
-              à propos de nous
-            </Link>
-
-            <Link
-              href="/contact"
-             
-            >
-              <p className="flex flex-col items-center">Contact</p>
-            </Link>
-          </div>
-        )}
+          ))}
+        </div>
       </div>
     </div>
   );
 }
-
-

@@ -5,13 +5,12 @@ import Button from "./Button/Button"
 
 export default function Tarif() {
   return (
-    <section className="p-8 bg-[#f7f7f7] space-y-4  " >
-      <div className="flex flex-col-reverse md:flex-row justify-around">
-
+    <section className="p-8 md:p-16 bg-white space-y-4  " >
+      <div className="flex flex-col-reverse md:flex-row justify-between">
         <div className="space-y-4 md:space-y-20 flex items-start justify-center flex-col">
           <div>
 
-            <div id="tarif" />
+            <div id="service" />
             <h1 className="text-4xl font-bold mb-2 text-slate-800">
               Découvrez notre assistance en temps réel,
             </h1>
@@ -43,7 +42,7 @@ export default function Tarif() {
 
 
         </div>
-        <img src="tarif.jpg" alt="" className="md:w-2/5" />
+        <img src="images/tarif.jpeg" alt="" className="md:w-3/5" />
       </div>
      
       <div className="w-full flex flex-col md:flex-row items-center justify-around gap-4 ">

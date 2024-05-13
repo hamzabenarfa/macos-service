@@ -6,7 +6,7 @@ export default function Page() {
   return (
     <>
       <section className="min-h-screen">
-        <section className="flex bg-[#f7f7f7] bg-[url('/hero.jpeg')] bg-cover bg-center text-white text-center py-40 relative">
+        <section className="flex bg-[#f7f7f7] bg-[url('/images/hero.jpeg')] bg-cover bg-center text-white text-center py-40 relative">
           <div className="relative pl-8 md:pl-16 z-10 flex flex-col items-start justify-start gap-4">
             <h1 className="text-2xl md:text-5xl lg:text-6xl xl:text-5xl font-bold text-left text-black">
               Des solutions digitales sur mesure <br /> pour booster votre réussite
@@ -32,11 +32,11 @@ export default function Page() {
           <div className="text-xl tracking-wide md:w-1/2">
             Développement web: Sites corporate et vitrine, sites e-commerce performants, extranet et outils métiers sur mesure, nous concevons des solutions digitales qui répondent aux exigences les plus pointues.
           </div>
-          <img src="dev1.jpeg" alt="Development" className="w-80" />
+          <img src="images/dev1.jpeg" alt="Development" className="w-80" />
         </div>
 
         <div className="flex flex-col md:flex-row items-center justify-around p-20 gap-8">
-          <img src="dev2.jpeg" alt="Development" className="w-80" />
+          <img src="images/dev2.jpeg" alt="Development" className="w-80" />
           <div className="text-xl tracking-wide md:w-1/2">
             Conseil en stratégie digitale et communication: Nos experts vous accompagnent dans l&apos;élaboration d&apos;une stratégie digitale cohérente et efficace, en parfaite adéquation avec vos objectifs de communication et de marketing.
           </div>
