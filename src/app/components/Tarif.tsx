@@ -17,16 +17,16 @@ export default function Tarif() {
 
 
             <h1 className="text-2xl font-semibold max-w-xl text-slate-800">
-              Votre Mac est-il verrouillé ?
+            Votre ordinateur est bloqué !
             </h1>
             <h1 className="text-2xl font-semibold max-w-xl text-slate-800">
-              Utilisez-vous une version obsolète de Mac ?
+            Mac est sur une ancienne version ?
             </h1>
             <h1 className="text-2xl font-semibold max-w-xl text-slate-800">
-              Impossible de faire les mises à jour ?
+            Pas de possibilité de mettre à jour !
             </h1>
             <h1 className="text-2xl font-semibold max-w-2xl text-slate-800">
-              Obtenez l&apos;aide d&apos;un Expert sans avoir à vous déplacer !
+            Un spécialiste est là pour vous aider,
             </h1>
           </div>
 
@@ -37,12 +37,12 @@ export default function Tarif() {
                 Connection à distance
               </a> */}
             </div>
-            <small className="block mt-2">Appel gratuit non surtaxé</small>
+            <small className="block mt-2 capitalize">Appel gratuit & non surtaxé</small>
           </div>
 
 
         </div>
-        <img src="images/tarif.jpeg" alt="" className="md:w-3/5" />
+        <img src="images/macc.jpeg" alt="" className="md:w-[65%]" />
       </div>
      
       <div className="w-full flex flex-col md:flex-row items-center justify-around gap-4 ">
